@@ -331,7 +331,7 @@ aqe(){var s,r=A.d8().b
 if(r==null)s=null
 else{r=r.canvasKitVariant
 if(r==null)r=null
-s=r}r=A.asC(A.al5(B.BB,s==null?"auto":s))
+s=r}r=A.asC(A.al5(B.BA,s==null?"auto":s))
 return new A.am(r,new A.a67(),A.X(r).h("am<1,u>"))},
 arT(a,b){return b+a},
 LJ(){var s=0,r=A.M(t.e),q,p,o,n,m
@@ -15313,7 +15313,7 @@ r.toString
 A.iU(r)
 q=a.k(0,"swipeEdge")
 q.toString
-return new A.CI(s,r,B.Bt[A.cy(q)])},
+return new A.CI(s,r,B.Br[A.cy(q)])},
 vd:function vd(a,b){this.a=a
 this.b=b},
 CI:function CI(a,b,c){this.a=a
@@ -22220,7 +22220,7 @@ KD(){var s=this.Q
 s===$&&A.b()
 return s},
 A0(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.BR
+if(a<0||b<0)return B.BQ
 s=this.a
 s===$&&A.b()
 s=s.a
@@ -22239,7 +22239,7 @@ l.push(new A.f0(n[0],n[1],n[2],n[3],B.fO[m]))}return l},
 d7(a){var s,r=this.a
 r===$&&A.b()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.Bv[B.c.U(r.affinity.value)]
+s=B.Bt[B.c.U(r.affinity.value)]
 return new A.ag(B.c.U(r.pos),s)},
 KG(a){var s=this.a
 s===$&&A.b()
@@ -23753,7 +23753,7 @@ if(g.b){q=t.f
 f=q.a(q.a(B.b3.dA(a0)).k(0,"data"))
 e=A.c4(f.k(0,"message"))
 if(e!=null&&e.length!==0){d=A.BB(f,"assertiveness")
-g.a.Gw(e,B.Be[d==null?0:d])}}c.cS(a1,B.b3.ba(!0))
+g.a.Gw(e,B.Bd[d==null?0:d])}}c.cS(a1,B.b3.ba(!0))
 return
 case"flutter/navigation":q=t.e8
 if(q.a(c.gbA().b.k(0,0))!=null)q.a(c.gbA().b.k(0,0)).y8(a0).b0(new A.Pd(c,a1),t.P)
@@ -25519,14 +25519,14 @@ RW(){var s=this,r=s.r
 if(r==null){r=s.r=new A.pW(s.c)
 r.d=new A.Pn(s)}return r},
 JI(a){var s,r=this
-if(B.b.q(B.BD,a.type)){s=r.RW()
+if(B.b.q(B.BC,a.type)){s=r.RW()
 s.toString
 s.sxe(r.c.$0().ue(5e5))
 if(r.f!==B.jF){r.f=B.jF
 r.E4()}}return r.d.a.Ly(a)},
 E4(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-Lx(a){if(B.b.q(B.BI,a))return this.f===B.dQ
+Lx(a){if(B.b.q(B.BH,a))return this.f===B.dQ
 return!1}}
 A.Po.prototype={
 $0(){return new A.ei(Date.now(),0,!1)},
@@ -26897,7 +26897,7 @@ m=A.yt(s.k(0,"fontWeightIndex"))
 l=m!=null?A.asz(m):"normal"
 r=A.afh(s.k(0,"fontSize"))
 if(r==null)r=null
-p=new A.a_p(new A.OS(r,l,A.c4(s.k(0,"fontFamily")),B.Ba[o],B.fO[n]))
+p=new A.a_p(new A.OS(r,l,A.c4(s.k(0,"fontFamily")),B.Bb[o],B.fO[n]))
 break
 case"TextInput.clearClient":p=B.wS
 break
@@ -30917,7 +30917,7 @@ if(o>0)return s
 return null}}
 A.a0Y.prototype={
 A(a,b){this.Co(b,0,b.length,!1)},
-aI(){this.Co(B.BM,0,0,!0)}}
+aI(){this.Co(B.BL,0,0,!0)}}
 A.a5I.prototype={
 Co(a,b,c,d){var s=this.b.ZU(a,b,c,d)
 if(s!=null)this.a.jA(s,0,s.length,d)}}
@@ -32747,7 +32747,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Bg[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Bf[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.a0(r)
 r[0]=d+l>>>0
@@ -35598,7 +35598,7 @@ n=o.e
 o=o.cx
 r=q.gUf()
 q.a.toString
-return new A.vL(p,p,p,new A.a3z(),p,p,p,p,p,n,B.DQ,p,p,p,B.BT,q.gUl(),o,p,B.K6,s,p,r,p,p,B.jV,!1,!1,p,p,p,new A.ld(q,t.bT))},
+return new A.vL(p,p,p,new A.a3z(),p,p,p,p,p,n,B.DQ,p,p,p,B.BS,q.gUl(),o,p,B.K6,s,p,r,p,p,B.jV,!1,!1,p,p,p,new A.ld(q,t.bT))},
 O(a){var s,r=null,q=A.B0(!1,!1,this.PV(a),r,r,r,r,!0,r,r,r,new A.a3A(),r,r)
 this.a.toString
 s=this.d
@@ -35703,7 +35703,7 @@ A.oO.prototype={
 G(){return"_CornerId."+this.b}}
 A.iJ.prototype={}
 A.nQ.prototype={
-hx(){var s,r,q=this,p=A.arg(B.BG,new A.UP(q,q.b.gbh().a7(0,q.a.gbh()))),o=q.a
+hx(){var s,r,q=this,p=A.arg(B.BF,new A.UP(q,q.b.gbh().a7(0,q.a.gbh()))),o=q.a
 o.toString
 s=p.a
 o=q.kR(o,s)
@@ -37744,7 +37744,7 @@ A.A5.prototype={
 GQ(a,b,c,d,e,f){return A.akh(a,b,c,d,e,f)}}
 A.Ct.prototype={
 PC(a){var s=t.Tr
-return A.a1(new A.am(B.BF,new A.VW(a),s),!0,s.h("ay.E"))},
+return A.a1(new A.am(B.BE,new A.VW(a),s),!0,s.h("ay.E"))},
 i(a,b){if(b==null)return!1
 if(this===b)return!0
 if(J.O(b)!==A.r(this))return!1
@@ -40870,7 +40870,7 @@ KF(a){var s=this.b,r=s.a.c.KG(a.a7(0,s.geC()))
 if(r==null||s.geC().i(0,B.j))return r
 return new A.le(r.a.cM(s.geC()),r.b,r.c)},
 wV(){var s,r,q=this.b,p=q.geC()
-if(!isFinite(p.a)||!isFinite(p.b))return B.BS
+if(!isFinite(p.a)||!isFinite(p.b))return B.BR
 s=q.f
 if(s==null){s=q.a.c.wV()
 q.f=s}if(p.i(0,B.j))r=s
@@ -46813,7 +46813,7 @@ break
 case 1:return A.K(q,r)}})
 return A.L($async$vg,r)},
 RN(a,b){var s,r,q,p
-if(a===b)return B.BQ
+if(a===b)return B.BP
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.jX(B.cD,a)
@@ -47983,7 +47983,7 @@ A.iu.prototype={}
 A.CM.prototype={
 hT(a,b){var s,r,q,p,o,n=$.aa.a5$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.q,r=0;r<2;++r){q=B.BJ[r]
+for(s=t.q,r=0;r<2;++r){q=B.BI[r]
 p=n.e
 p.toString
 o=A.a7J(p,q,s)
@@ -51210,7 +51210,7 @@ if(b==null)return!1
 if(J.O(b)!==A.r(s))return!1
 return b instanceof A.i9&&b.a===s.a&&b.b===s.b&&b.c==s.c&&b.d===s.d&&A.cU(null,null)},
 gp(a){var s=this
-return A.P(s.a,s.b,s.c,s.d,A.bt(B.BN),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.P(s.a,s.b,s.c,s.d,A.bt(B.BM),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.d.or(B.h.j7(this.a,16).toUpperCase(),5,"0")+")"}}
 A.li.prototype={
 bG(a){return!this.w.i(0,a.w)}}
@@ -52026,7 +52026,7 @@ g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.hd
 s=s&&d
-f=new A.tg(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.qW(d),B.BO,s===!0)
+f=new A.tg(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.qW(d),B.BN,s===!0)
 if(!f.i(0,e.e))e.ap(new A.a3R(e,f))},
 Hv(){this.nj()},
 Hx(){if(this.d==null)this.nj()},
@@ -52303,7 +52303,7 @@ r.I(0,s.K_(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.BU[p]
+for(;!1;++p){o=B.BT[p]
 n=l.c
 n.toString
 m=new A.eA(o.x9(n),null,!0,B.i0,B.aV,new A.mG(new ($.LX())(B.aV)),B.aV)
@@ -52647,7 +52647,7 @@ O(a){var s,r,q=this,p=null,o=q.gTf(),n=A.nt(a),m=q.bb$,l=q.d
 l===$&&A.b()
 s=q.a.ax
 if(l.gbp()==null){r=q.gBE()
-r=J.nK(r.slice(0),A.X(r).c)}else r=B.BV
+r=J.nK(r.slice(0),A.X(r).c)}else r=B.BU
 return new A.lg(p,new A.d0(new A.VC(q,a),A.BS(B.bw,new A.z2(!1,A.a8h(A.B0(!0,p,A.a_S(m,new A.tG(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gUD(),p,p,o),p,t.w3),p)}}
 A.VB.prototype={
 $1(a){var s=this.a.c
@@ -57184,7 +57184,7 @@ r.qa()
 return s.aH()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gvi(),p=0;p<s.length;s.length===r||(0,A.B)(s),++p)s[p].M(q)
-o.b=B.BP
+o.b=B.BO
 o.y=!1
 o.dS()},
 ce(a,b){return a.iF(b)},
@@ -59576,7 +59576,7 @@ O(a){var s=null,r=A.j3().$3$color$fontSize$fontWeight(B.i,48,B.aw),q=A.j3().$3$c
 return new A.tb(B.FC,"Portfolio",A.a9h(B.af,s,B.jc,B.xA,A.a_B(A.j3().$3$color$fontSize$height(B.w,16,1.6),s,s,s,s,s,r,q,s,s,s,s,s,s,s),s),!1,s)}}
 A.z1.prototype={
 O(a){var s=null,r=t.p
-return A.eG(s,new A.h2(B.vU,A.fA(A.c([A.Ps(A.eF(A.c([A.fA(A.c([B.zO,B.d4,A.d4("Mas sobre m\xed",A.a9(a).p1.e,s)],r),B.S,B.a1),B.aC,A.us(s,s,s,B.db,s,s,!0,s,A.mj(B.BK,A.j3().$3$color$fontSize$height(B.w,18,1.6),s),B.aD,s,s,B.O,B.aR)],r),B.K),3)],r),B.K,B.a1),s),B.x,s,s,s,s,s,s,B.dK,s,s,1/0)}}
+return A.eG(s,new A.h2(B.vU,A.fA(A.c([A.Ps(A.eF(A.c([A.fA(A.c([B.zO,B.d4,A.d4("Mas sobre m\xed",A.a9(a).p1.e,s)],r),B.S,B.a1),B.aC,A.us(s,s,s,B.db,s,s,!0,s,A.mj(B.BJ,A.j3().$3$color$fontSize$height(B.w,18,1.6),s),B.aD,s,s,B.O,B.aR)],r),B.K),3)],r),B.K,B.a1),s),B.x,s,s,s,s,s,s,B.dK,s,s,1/0)}}
 A.zA.prototype={
 O(a){var s=null,r=t.p
 return A.eG(s,A.eF(A.c([A.fA(A.c([B.zL,B.d4,A.d4("Certificaciones y Cursos",A.a9(a).p1.e,s)],r),B.S,B.a1),B.aC,B.Nj],r),B.K),B.x,s,s,s,s,s,s,B.dK,s,s,1/0)}}
@@ -59799,7 +59799,7 @@ O(a){var s=null,r=t.p
 return A.eG(s,A.eF(A.c([A.fA(A.c([B.jK,B.d4,A.d4("Habilidades",A.a9(a).p1.e,s)],r),B.S,B.a1),B.aC,B.I1],r),B.K),B.x,s,s,s,s,s,s,B.yU,s,s,1/0)}}
 A.E1.prototype={
 O(a){var s=null
-return A.eG(s,A.eF(A.c([new A.q2(B.Bi,s)],t.p),B.K),B.x,s,s,s,s,s,B.jw,s,s,s,1/0)}}
+return A.eG(s,A.eF(A.c([new A.q2(B.Bg,s)],t.p),B.K),B.x,s,s,s,s,s,B.jw,s,s,s,1/0)}}
 A.q2.prototype={
 ad(){return new A.F8()}}
 A.F8.prototype={
@@ -62618,7 +62618,7 @@ B.x1=new A.a_X()
 B.N=new A.a0_()
 B.bs=new A.a01()
 B.cd=new A.EK(0,0,0,0)
-B.BO=A.c(s([]),A.ad("w<au_>"))
+B.BN=A.c(s([]),A.ad("w<au_>"))
 B.On=new A.a06()
 B.aB={}
 B.oW=new A.bh(B.aB,[],t.li)
@@ -62752,40 +62752,40 @@ B.Ic=new A.E2(null)
 B.yZ=new A.AH(null)
 B.xm=new A.zA(null)
 B.FF=new A.CN(null)
-B.B8=A.c(s([B.zt,B.vw,B.Ic,B.yZ,B.xm,B.FF]),t.p)
-B.yd=new A.hZ(B.aI,B.as,B.a1,B.S,null,B.aF,null,0,B.B8,null)
+B.B9=A.c(s([B.zt,B.vw,B.Ic,B.yZ,B.xm,B.FF]),t.p)
+B.yd=new A.hZ(B.aI,B.as,B.a1,B.S,null,B.aF,null,0,B.B9,null)
 B.Ca=A.c(s(["Golang","PostgreSQL","HTML","CSS","JWT"]),t.s)
 B.tO=new A.hn("MountainTech - Ecommerce de Hardware","Tienda venta de componentes de computadora. Hecha completamente con Golang, HTML, CSS, Bootstrap. Utilisando el sistema de renderisado de plantillas en el Servidor de Golang y PostgreSQL para almacenar los datos.","assets/images/home.png",B.Ca,!0,"https://github.com/RodrigoGonzalez78/ecommerce_web",!1,"",null)
 B.aC=new A.ds(null,32,null,null)
-B.C3=A.c(s(["Golang","Android","Jetpack Compose","Retrofit","Hilt","Room"]),t.s)
-B.tP=new A.hn("Twitter(X) Clone App","Hecha desde cero con android nativo para la aplicacion usando Retrofit, Room, injecci\xf3n de dependencias y Clean Arquitecture, tambien hice el backend con Golang usando MongoDB, JWT y Gorilla Mux. ","assets/images/tweet.jpg",B.C3,!0,"https://github.com/RodrigoGonzalez78/TwitterCloneApp",!1,"",null)
-B.Bu=A.c(s(["Golang","Docker","JMeter","PostgresSQL","Grafana","Prometheus"]),t.s)
-B.tR=new A.hn("Investigaci\xf3n sobre Microservicios","Realic\xe9 un proyecto de investigaci\xf3n en el que compar\xe9 las arquitecturas monol\xedticas y de microservicios, desde el dise\xf1o, implementaci\xf3n, pruebas de carga y monitorizaci\xf3n.","assets/images/micro.png",B.Bu,!0,"https://github.com/RodrigoGonzalez78/microservicios_task_managment",!1,"",null)
-B.BY=A.c(s(["Golang","PostgresSQL","Jetpack Compose","Retrofit","Hilt"]),t.s)
-B.tQ=new A.hn("Task Manager","Una aplicaci\xf3n escrita en Android nativo, con Retrofit, Hilt y DataStore. Esta se basa en una API que constru\xed con Golang, usando Gorilla Mux, GORM, PostgreSQL y autenticaci\xf3n con JWT","assets/images/task.jpg",B.BY,!0,"https://github.com/RodrigoGonzalez78/TasksApp",!1,"",null)
+B.C2=A.c(s(["Golang","Android","Jetpack Compose","Retrofit","Hilt","Room"]),t.s)
+B.tP=new A.hn("Twitter(X) Clone App","Hecha desde cero con android nativo para la aplicacion usando Retrofit, Room, injecci\xf3n de dependencias y Clean Arquitecture, tambien hice el backend con Golang usando MongoDB, JWT y Gorilla Mux. ","assets/images/tweet.jpg",B.C2,!0,"https://github.com/RodrigoGonzalez78/TwitterCloneApp",!1,"",null)
+B.Bs=A.c(s(["Golang","Docker","JMeter","PostgresSQL","Grafana","Prometheus"]),t.s)
+B.tS=new A.hn("Investigaci\xf3n sobre Microservicios","Realic\xe9 un proyecto de investigaci\xf3n en el que compar\xe9 las arquitecturas monol\xedticas y de microservicios, desde el dise\xf1o, implementaci\xf3n, pruebas de carga y monitorizaci\xf3n.","assets/images/micro.png",B.Bs,!0,"https://github.com/RodrigoGonzalez78/microservicios_task_managment",!1,"",null)
+B.BX=A.c(s(["Golang","PostgresSQL","Jetpack Compose","Retrofit","Hilt"]),t.s)
+B.tQ=new A.hn("Task Manager","Una aplicaci\xf3n escrita en Android nativo, con Retrofit, Hilt y DataStore. Esta se basa en una API que constru\xed con Golang, usando Gorilla Mux, GORM, PostgreSQL y autenticaci\xf3n con JWT","assets/images/task.jpg",B.BX,!0,"https://github.com/RodrigoGonzalez78/TasksApp",!1,"",null)
 B.AJ=A.c(s(["Golang","SQLite","Jeson Web Token","GORM","Gorilla Mux"]),t.s)
 B.tT=new A.hn("Api de Procesamiento de Im\xe1genes","Realice un API RESTful en Golang que permite subir im\xe1genes, almacenarlas y aplicarles diferentes filtros, como escala de grises, sepia, etc. Utiliza GORM para la gesti\xf3n de la base de datos y JWT para la autenticaci\xf3n de usuarios.","assets/images/img_proc.png",B.AJ,!0,"https://github.com/RodrigoGonzalez78/image_processing",!1,"",null)
-B.Bf=A.c(s(["Flutter","SQLite","Provider"]),t.s)
-B.tS=new A.hn("Getor de Gastos","Aplicaci\xf3n hecha en flutter que permite gestionar los gastos y ingresos de una persona. Utiliza Provider para la gesti\xf3n del estado y SQLite para el almacenamiento de datos.","assets/images/gestion.png",B.Bf,!1,"",!0,"https://play.google.com/store/apps/details?id=com.rocketstudio99.gestor_de_gastos&hl=es_AR",null)
-B.Bh=A.c(s([B.tO,B.aC,B.tP,B.aC,B.tR,B.aC,B.tQ,B.aC,B.tT,B.aC,B.tS]),t.p)
-B.ye=new A.hZ(B.aI,B.as,B.a1,B.S,null,B.aF,null,0,B.Bh,null)
+B.Be=A.c(s(["Flutter","SQLite","Provider"]),t.s)
+B.tR=new A.hn("Gestor de Gastos","Aplicaci\xf3n hecha en flutter que permite gestionar los gastos y ingresos de una persona. Utiliza Provider para la gesti\xf3n del estado y SQLite para el almacenamiento de datos.","assets/images/gestion.png",B.Be,!1,"",!0,"https://play.google.com/store/apps/details?id=com.rocketstudio99.gestor_de_gastos&hl=es_AR",null)
+B.Bv=A.c(s([B.tO,B.aC,B.tP,B.aC,B.tS,B.aC,B.tQ,B.aC,B.tT,B.aC,B.tR]),t.p)
+B.ye=new A.hZ(B.aI,B.as,B.a1,B.S,null,B.aF,null,0,B.Bv,null)
 B.K=new A.kS(0,"start")
 B.b8=new A.AY(0,"tight")
 B.z3=new A.h4(1,B.b8,B.tO,null)
 B.hL=new A.ds(32,null,null,null)
 B.z4=new A.h4(1,B.b8,B.tP,null)
-B.Bl=A.c(s([B.z3,B.hL,B.z4]),t.p)
-B.G1=new A.m2(B.aH,B.as,B.a1,B.K,null,B.aF,null,0,B.Bl,null)
-B.z2=new A.h4(1,B.b8,B.tR,null)
+B.Bi=A.c(s([B.z3,B.hL,B.z4]),t.p)
+B.G0=new A.m2(B.aH,B.as,B.a1,B.K,null,B.aF,null,0,B.Bi,null)
+B.z2=new A.h4(1,B.b8,B.tS,null)
 B.z7=new A.h4(1,B.b8,B.tQ,null)
-B.Bw=A.c(s([B.z2,B.hL,B.z7]),t.p)
-B.G_=new A.m2(B.aH,B.as,B.a1,B.K,null,B.aF,null,0,B.Bw,null)
-B.z5=new A.h4(1,B.b8,B.tT,null)
-B.z6=new A.h4(1,B.b8,B.tS,null)
-B.Bb=A.c(s([B.z5,B.hL,B.z6]),t.p)
-B.G0=new A.m2(B.aH,B.as,B.a1,B.K,null,B.aF,null,0,B.Bb,null)
-B.Bk=A.c(s([B.G1,B.G_,B.G0]),t.p)
-B.yf=new A.hZ(B.aI,B.as,B.a1,B.S,null,B.aF,null,0,B.Bk,null)
+B.Bu=A.c(s([B.z2,B.hL,B.z7]),t.p)
+B.G_=new A.m2(B.aH,B.as,B.a1,B.K,null,B.aF,null,0,B.Bu,null)
+B.z6=new A.h4(1,B.b8,B.tT,null)
+B.z5=new A.h4(1,B.b8,B.tR,null)
+B.C8=A.c(s([B.z6,B.hL,B.z5]),t.p)
+B.G1=new A.m2(B.aH,B.as,B.a1,B.K,null,B.aF,null,0,B.C8,null)
+B.Bp=A.c(s([B.G0,B.G_,B.G1]),t.p)
+B.yf=new A.hZ(B.aI,B.as,B.a1,B.S,null,B.aF,null,0,B.Bp,null)
 B.cu=new A.kS(1,"end")
 B.dG=new A.kS(3,"stretch")
 B.dH=new A.kS(4,"baseline")
@@ -63037,20 +63037,20 @@ B.jT=new A.t0(3,"endOfText")
 B.Ao=new A.t4(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Aq=A.c(s([0,6,12,18]),t.t)
 B.AP=A.c(s([4,9,14,19]),t.t)
-B.C4=A.c(s([137,80,78,71,13,10,26,10]),t.Z)
+B.C3=A.c(s([137,80,78,71,13,10,26,10]),t.Z)
 B.zV=new A.jr(0,"png")
 B.A2=new A.h9(B.zV,!1,0,"png")
-B.zT=new A.ib(B.C4,B.A2,0,"png")
-B.C5=A.c(s([71,73,70,56,55,97]),t.Z)
-B.zS=new A.ib(B.C5,B.dU,1,"gif87a")
-B.BE=A.c(s([71,73,70,56,57,97]),t.Z)
-B.zR=new A.ib(B.BE,B.dU,2,"gif89a")
+B.zT=new A.ib(B.C3,B.A2,0,"png")
+B.C4=A.c(s([71,73,70,56,55,97]),t.Z)
+B.zS=new A.ib(B.C4,B.dU,1,"gif87a")
+B.BD=A.c(s([71,73,70,56,57,97]),t.Z)
+B.zR=new A.ib(B.BD,B.dU,2,"gif89a")
 B.As=A.c(s([255,216,255]),t.Z)
 B.zW=new A.jr(2,"jpeg")
 B.A6=new A.h9(B.zW,!1,3,"jpeg")
 B.zU=new A.ib(B.As,B.A6,3,"jpeg")
-B.B9=A.c(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
-B.zQ=new A.ib(B.B9,B.jN,4,"webp")
+B.Ba=A.c(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
+B.zQ=new A.ib(B.Ba,B.jN,4,"webp")
 B.B2=A.c(s([66,77]),t.Z)
 B.zX=new A.jr(4,"bmp")
 B.A4=new A.h9(B.zX,!1,6,"bmp")
@@ -63066,9 +63066,9 @@ B.da=new A.iB(2,"center")
 B.eE=new A.iB(3,"justify")
 B.aD=new A.iB(4,"start")
 B.hO=new A.iB(5,"end")
-B.Ba=A.c(s([B.d9,B.hN,B.da,B.eE,B.aD,B.hO]),A.ad("w<iB>"))
-B.Be=A.c(s([B.eT,B.eU]),A.ad("w<qc>"))
-B.Bg=A.c(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
+B.Bb=A.c(s([B.d9,B.hN,B.da,B.eE,B.aD,B.hO]),A.ad("w<iB>"))
+B.Bd=A.c(s([B.eT,B.eU]),A.ad("w<qc>"))
+B.Bf=A.c(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
 B.zw=new A.eN(61819,"FontAwesomeBrands","font_awesome_flutter",!1)
 B.I4=new A.dJ("Android",B.zw,null)
 B.zz=new A.eN(59028,"FontAwesomeBrands","font_awesome_flutter",!1)
@@ -63087,7 +63087,7 @@ B.I3=new A.dJ("Docker",B.zA,null)
 B.zv=new A.eN(61907,"FontAwesomeBrands","font_awesome_flutter",!1)
 B.Ia=new A.dJ("Git",B.zv,null)
 B.I7=new A.dJ("GitHub",B.jG,null)
-B.Bi=A.c(s([B.I4,B.I9,B.I6,B.I2,B.Ib,B.I5,B.I8,B.I3,B.Ia,B.I7]),A.ad("w<dJ>"))
+B.Bg=A.c(s([B.I4,B.I9,B.I6,B.I2,B.Ib,B.I5,B.I8,B.I3,B.Ia,B.I7]),A.ad("w<dJ>"))
 B.Cb=new A.he("en","US")
 B.jV=A.c(s([B.Cb]),t.ss)
 B.Nv=new A.iK(0,0)
@@ -63097,25 +63097,25 @@ B.Nz=new A.iK(6,0.11)
 B.Nx=new A.iK(8,0.12)
 B.Nw=new A.iK(12,0.14)
 B.jW=A.c(s([B.Nv,B.NA,B.Ny,B.Nz,B.Nx,B.Nw]),A.ad("w<iK>"))
-B.Bs=A.c(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
+B.Bq=A.c(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
 B.Ip=new A.vd(0,"left")
 B.Iq=new A.vd(1,"right")
-B.Bt=A.c(s([B.Ip,B.Iq]),A.ad("w<vd>"))
+B.Br=A.c(s([B.Ip,B.Iq]),A.ad("w<vd>"))
 B.au=new A.vh(0,"upstream")
 B.n=new A.vh(1,"downstream")
-B.Bv=A.c(s([B.au,B.n]),A.ad("w<vh>"))
+B.Bt=A.c(s([B.au,B.n]),A.ad("w<vh>"))
 B.aE=new A.vl(0,"rtl")
 B.a8=new A.vl(1,"ltr")
 B.fO=A.c(s([B.aE,B.a8]),A.ad("w<vl>"))
 B.xc=new A.n2(0,"auto")
 B.xd=new A.n2(1,"full")
 B.xe=new A.n2(2,"chromium")
-B.BB=A.c(s([B.xc,B.xd,B.xe]),A.ad("w<n2>"))
-B.BD=A.c(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup"]),t.s)
+B.BA=A.c(s([B.xc,B.xd,B.xe]),A.ad("w<n2>"))
+B.BC=A.c(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup"]),t.s)
 B.d6=new A.dL(1,"fuchsia")
 B.d7=new A.dL(3,"linux")
 B.d8=new A.dL(5,"windows")
-B.BF=A.c(s([B.aQ,B.d6,B.at,B.d7,B.ca,B.d8]),A.ad("w<dL>"))
+B.BE=A.c(s([B.aQ,B.d6,B.at,B.d7,B.ca,B.d8]),A.ad("w<dL>"))
 B.vd=new A.oO(0,"topLeft")
 B.vg=new A.oO(3,"bottomRight")
 B.Nq=new A.iJ(B.vd,B.vg)
@@ -63124,32 +63124,32 @@ B.ve=new A.oO(1,"topRight")
 B.vf=new A.oO(2,"bottomLeft")
 B.Nr=new A.iJ(B.ve,B.vf)
 B.Ns=new A.iJ(B.vf,B.ve)
-B.BG=A.c(s([B.Nq,B.Nt,B.Nr,B.Ns]),A.ad("w<iJ>"))
-B.BI=A.c(s(["click","scroll"]),t.s)
+B.BF=A.c(s([B.Nq,B.Nt,B.Nr,B.Ns]),A.ad("w<iJ>"))
+B.BH=A.c(s(["click","scroll"]),t.s)
 B.w2=new A.mQ()
 B.hn=new A.DE(1,"page")
 B.ho=new A.dH(B.F,B.hn)
-B.BJ=A.c(s([B.w2,B.ho]),A.ad("w<ar>"))
+B.BI=A.c(s([B.w2,B.ho]),A.ad("w<ar>"))
 B.IQ=new A.hz("Me llamo Rodrigo Alejandro Gonz\xe1lez. Comenc\xe9 mi camino en la programaci\xf3n con Java en la secundaria, y m\xe1s tarde me adentr\xe9 en el desarrollo de videojuegos como hobby, utilizando Unity y C#.\n",null,B.aJ,null)
 B.IP=new A.hz("Hoy en d\xeda, me especializo en el desarrollo de aplicaciones m\xf3viles, desde el dise\xf1o hasta su publicaci\xf3n, aplicando buenas pr\xe1cticas como Clean Architecture e inyecci\xf3n de dependencias. Me esfuerzo por mantenerme en constante aprendizaje, mejorando mis habilidades y desarrollando mis propios backends, adquiriendo conocimientos en APIs REST, bases de datos, arquitectura y redes, usando para esto Golang.",null,B.aJ,null)
-B.BK=A.c(s([B.IQ,B.IP]),t.VO)
-B.BQ=A.c(s([]),t.QP)
+B.BJ=A.c(s([B.IQ,B.IP]),t.VO)
+B.BP=A.c(s([]),t.QP)
 B.jZ=A.c(s([]),A.ad("w<atL>"))
-B.BS=A.c(s([]),t.ER)
-B.BT=A.c(s([]),t.tc)
+B.BR=A.c(s([]),t.ER)
+B.BS=A.c(s([]),t.tc)
 B.e0=A.c(s([]),t.jl)
-B.BV=A.c(s([]),t.wi)
-B.BU=A.c(s([]),A.ad("w<ade<@>>"))
+B.BU=A.c(s([]),t.wi)
+B.BT=A.c(s([]),A.ad("w<ade<@>>"))
 B.fQ=A.c(s([]),t.AO)
-B.BP=A.c(s([]),t.D1)
+B.BO=A.c(s([]),t.D1)
 B.fP=A.c(s([]),t.V)
 B.jX=A.c(s([]),t.s)
 B.a7=A.c(s([]),t.oU)
-B.BR=A.c(s([]),t.Lx)
+B.BQ=A.c(s([]),t.Lx)
 B.Ou=A.c(s([]),t.p)
-B.BM=A.c(s([]),t.t)
+B.BL=A.c(s([]),t.t)
 B.jY=A.c(s([]),t.ee)
-B.BN=A.c(s([]),t.XS)
+B.BM=A.c(s([]),t.XS)
 B.k_=A.c(s([B.fF,B.fG,B.fH,B.y,B.Z,B.fI,B.aw,B.fJ,B.dP]),A.ad("w<dB>"))
 B.cD=A.c(s([B.bm,B.b2,B.df,B.dg,B.eS]),t.QP)
 B.bU=new A.eo(0,"controlModifier")
@@ -63693,57 +63693,57 @@ B.AV=A.c(s([54,null,null,8589935158]),t.Z)
 B.AW=A.c(s([55,null,null,8589935159]),t.Z)
 B.AX=A.c(s([56,null,null,8589935160]),t.Z)
 B.AZ=A.c(s([57,null,null,8589935161]),t.Z)
-B.Bx=A.c(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.Bw=A.c(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.Aw=A.c(s([4294967555,null,4294967555,null]),t.Z)
 B.Ax=A.c(s([4294968065,null,null,8589935154]),t.Z)
 B.Ay=A.c(s([4294968066,null,null,8589935156]),t.Z)
 B.Az=A.c(s([4294968067,null,null,8589935158]),t.Z)
 B.AA=A.c(s([4294968068,null,null,8589935160]),t.Z)
 B.AF=A.c(s([4294968321,null,null,8589935157]),t.Z)
-B.By=A.c(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.Bx=A.c(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.Av=A.c(s([4294967423,null,null,8589935150]),t.Z)
 B.AB=A.c(s([4294968069,null,null,8589935153]),t.Z)
 B.Au=A.c(s([4294967309,null,null,8589935117]),t.Z)
 B.AC=A.c(s([4294968070,null,null,8589935159]),t.Z)
 B.AG=A.c(s([4294968327,null,null,8589935152]),t.Z)
-B.Bz=A.c(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.By=A.c(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.AD=A.c(s([4294968071,null,null,8589935155]),t.Z)
 B.AE=A.c(s([4294968072,null,null,8589935161]),t.Z)
-B.BA=A.c(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.p0=new A.c6(["*",B.AH,"+",B.AI,"-",B.AK,".",B.AL,"/",B.AM,"0",B.AN,"1",B.AO,"2",B.AQ,"3",B.AS,"4",B.AT,"5",B.AU,"6",B.AV,"7",B.AW,"8",B.AX,"9",B.AZ,"Alt",B.Bx,"AltGraph",B.Aw,"ArrowDown",B.Ax,"ArrowLeft",B.Ay,"ArrowRight",B.Az,"ArrowUp",B.AA,"Clear",B.AF,"Control",B.By,"Delete",B.Av,"End",B.AB,"Enter",B.Au,"Home",B.AC,"Insert",B.AG,"Meta",B.Bz,"PageDown",B.AD,"PageUp",B.AE,"Shift",B.BA],A.ad("c6<u,N<j?>>"))
+B.Bz=A.c(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.p0=new A.c6(["*",B.AH,"+",B.AI,"-",B.AK,".",B.AL,"/",B.AM,"0",B.AN,"1",B.AO,"2",B.AQ,"3",B.AS,"4",B.AT,"5",B.AU,"6",B.AV,"7",B.AW,"8",B.AX,"9",B.AZ,"Alt",B.Bw,"AltGraph",B.Aw,"ArrowDown",B.Ax,"ArrowLeft",B.Ay,"ArrowRight",B.Az,"ArrowUp",B.AA,"Clear",B.AF,"Control",B.Bx,"Delete",B.Av,"End",B.AB,"Enter",B.Au,"Home",B.AC,"Insert",B.AG,"Meta",B.By,"PageDown",B.AD,"PageUp",B.AE,"Shift",B.Bz],A.ad("c6<u,N<j?>>"))
 B.AY=A.c(s([B.k7,null,null,B.oO]),t.L)
-B.BW=A.c(s([B.oA,null,null,B.oP]),t.L)
-B.Bj=A.c(s([B.oB,null,null,B.oQ]),t.L)
-B.BC=A.c(s([B.oC,null,null,B.bz]),t.L)
+B.BV=A.c(s([B.oA,null,null,B.oP]),t.L)
+B.Bh=A.c(s([B.oB,null,null,B.oQ]),t.L)
+B.BB=A.c(s([B.oC,null,null,B.bz]),t.L)
 B.Ap=A.c(s([B.oD,null,null,B.oR]),t.L)
-B.C6=A.c(s([B.oE,null,null,B.h1]),t.L)
-B.C2=A.c(s([B.oF,null,null,B.cN]),t.L)
+B.C5=A.c(s([B.oE,null,null,B.h1]),t.L)
+B.C1=A.c(s([B.oF,null,null,B.cN]),t.L)
 B.B3=A.c(s([B.oG,null,null,B.bA]),t.L)
 B.C9=A.c(s([B.oH,null,null,B.cO]),t.L)
-B.C1=A.c(s([B.oI,null,null,B.bB]),t.L)
+B.C0=A.c(s([B.oI,null,null,B.bB]),t.L)
 B.B1=A.c(s([B.oJ,null,null,B.h2]),t.L)
 B.At=A.c(s([B.oK,null,null,B.bC]),t.L)
-B.Bd=A.c(s([B.oL,null,null,B.cP]),t.L)
-B.BX=A.c(s([B.oM,null,null,B.bD]),t.L)
-B.BZ=A.c(s([B.oN,null,null,B.cQ]),t.L)
-B.B4=A.c(s([B.cL,B.cL,B.e7,null]),t.L)
-B.C7=A.c(s([B.e3,null,B.e3,null]),t.L)
-B.Bm=A.c(s([B.aN,null,null,B.bA]),t.L)
-B.Bn=A.c(s([B.ay,null,null,B.bB]),t.L)
-B.Bo=A.c(s([B.az,null,null,B.bC]),t.L)
-B.C8=A.c(s([B.aO,null,null,B.bD]),t.L)
-B.C_=A.c(s([B.fV,null,null,B.h2]),t.L)
-B.B5=A.c(s([B.cJ,B.cJ,B.e6,null]),t.L)
-B.BH=A.c(s([B.a0,null,null,B.bz]),t.L)
-B.Bp=A.c(s([B.bx,null,null,B.cN]),t.L)
+B.Bc=A.c(s([B.oL,null,null,B.cP]),t.L)
+B.BW=A.c(s([B.oM,null,null,B.bD]),t.L)
+B.BY=A.c(s([B.oN,null,null,B.cQ]),t.L)
+B.B5=A.c(s([B.cL,B.cL,B.e7,null]),t.L)
+B.C6=A.c(s([B.e3,null,B.e3,null]),t.L)
+B.Bj=A.c(s([B.aN,null,null,B.bA]),t.L)
+B.Bk=A.c(s([B.ay,null,null,B.bB]),t.L)
+B.Bl=A.c(s([B.az,null,null,B.bC]),t.L)
+B.C7=A.c(s([B.aO,null,null,B.bD]),t.L)
+B.BZ=A.c(s([B.fV,null,null,B.h2]),t.L)
+B.B6=A.c(s([B.cJ,B.cJ,B.e6,null]),t.L)
+B.BG=A.c(s([B.a0,null,null,B.bz]),t.L)
+B.Bm=A.c(s([B.bx,null,null,B.cN]),t.L)
 B.B0=A.c(s([B.e2,null,null,B.h0]),t.L)
-B.Bq=A.c(s([B.by,null,null,B.cP]),t.L)
-B.C0=A.c(s([B.fW,null,null,B.h1]),t.L)
-B.B6=A.c(s([B.cM,B.cM,B.e8,null]),t.L)
-B.Br=A.c(s([B.cH,null,null,B.cO]),t.L)
-B.BL=A.c(s([B.cI,null,null,B.cQ]),t.L)
-B.B7=A.c(s([B.bT,B.bT,B.cK,null]),t.L)
-B.DR=new A.c6(["*",B.AY,"+",B.BW,"-",B.Bj,".",B.BC,"/",B.Ap,"0",B.C6,"1",B.C2,"2",B.B3,"3",B.C9,"4",B.C1,"5",B.B1,"6",B.At,"7",B.Bd,"8",B.BX,"9",B.BZ,"Alt",B.B4,"AltGraph",B.C7,"ArrowDown",B.Bm,"ArrowLeft",B.Bn,"ArrowRight",B.Bo,"ArrowUp",B.C8,"Clear",B.C_,"Control",B.B5,"Delete",B.BH,"End",B.Bp,"Enter",B.B0,"Home",B.Bq,"Insert",B.C0,"Meta",B.B6,"PageDown",B.Br,"PageUp",B.BL,"Shift",B.B7],A.ad("c6<u,N<e?>>"))
+B.Bn=A.c(s([B.by,null,null,B.cP]),t.L)
+B.C_=A.c(s([B.fW,null,null,B.h1]),t.L)
+B.B7=A.c(s([B.cM,B.cM,B.e8,null]),t.L)
+B.Bo=A.c(s([B.cH,null,null,B.cO]),t.L)
+B.BK=A.c(s([B.cI,null,null,B.cQ]),t.L)
+B.B8=A.c(s([B.bT,B.bT,B.cK,null]),t.L)
+B.DR=new A.c6(["*",B.AY,"+",B.BV,"-",B.Bh,".",B.BB,"/",B.Ap,"0",B.C5,"1",B.C1,"2",B.B3,"3",B.C9,"4",B.C0,"5",B.B1,"6",B.At,"7",B.Bc,"8",B.BW,"9",B.BY,"Alt",B.B5,"AltGraph",B.C6,"ArrowDown",B.Bj,"ArrowLeft",B.Bk,"ArrowRight",B.Bl,"ArrowUp",B.C7,"Clear",B.BZ,"Control",B.B6,"Delete",B.BG,"End",B.Bm,"Enter",B.B0,"Home",B.Bn,"Insert",B.C_,"Meta",B.B7,"PageDown",B.Bo,"PageUp",B.BK,"Shift",B.B8],A.ad("c6<u,N<e?>>"))
 B.DS=new A.c6([B.fF,"Thin",B.fG,"ExtraLight",B.fH,"Light",B.y,"Regular",B.Z,"Medium",B.fI,"SemiBold",B.aw,"Bold",B.fJ,"ExtraBold",B.dP,"Black"],A.ad("c6<dB,u>"))
 B.El={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.p1=new A.bh(B.El,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
@@ -64744,15 +64744,15 @@ B.Ng=new A.k5(5,"spaceEvenly")
 B.hY=new A.vN(0,"start")
 B.Nh=new A.vN(1,"end")
 B.Ni=new A.vN(2,"center")
-B.xh=new A.h0("Go (Basic) Certificate","HackerRank","Diciembre 2024","Cubre temas como caracter\xedsticas b\xe1sicas del lenguaje Golang, estructuras de datos simples, matrices, mapas, tipos de datos e interfaces.",B.dT,"https://www.hackerrank.com/certificates/4ab62ad29073",null)
+B.xk=new A.h0("Go (Intermediate) Certificate","HackerRank","Diciembre 2024","Incluye trabajar con funciones, punteros, manejo de archivos, creaci\xf3n de servicios web en Go y manejo de errores.",B.dT,"https://www.hackerrank.com/certificates/09b125616aae",null)
 B.xl=new A.h0("SQL (Basic) Certificate","HackerRank","Diciembre 2024","Incluye consultas simples, relaciones y agregadores.",B.dT,"https://www.hackerrank.com/certificates/b93140f296c6",null)
-B.xj=new A.h0("Python (Basic) Certificate","HackerRank","Diciembre 2024","Cubre temas como tipos escalares, operadores y flujo de control, cadenas, colecciones e iteraci\xf3n, modularidad, objetos y tipos y clases.",B.dT,"https://www.hackerrank.com/certificates/76b51c0f9dd9",null)
+B.xi=new A.h0("Python (Basic) Certificate","HackerRank","Diciembre 2024","Cubre temas como tipos escalares, operadores y flujo de control, cadenas, colecciones e iteraci\xf3n, modularidad, objetos y tipos y clases.",B.dT,"https://www.hackerrank.com/certificates/76b51c0f9dd9",null)
 B.fK=new A.rF(85,"FontAwesomeSolid","font_awesome_flutter",!1)
-B.xi=new A.h0("Programaci\xf3n de Aplicaciones para Android con Kotlin","Udemy","Julio 2024","Curso de desarrollo Android con Kotlin desde cero hasta un nivel avanzado, cubriendo Kotlin, POO, debugging, componentes de una app y buenas pr\xe1cticas.",B.fK,"https://www.udemy.com/certificate/UC-148a7f74-4fd1-4b57-9472-734b4b27f638/",null)
-B.xk=new A.h0("Aprende lenguaje GO (GOLANG) desde 0","Udemy","Febrero 2022","Go desde lo b\xe1sico hasta lo intermedio, incluyendo POO, estructuras, APIs REST y tecnolog\xedas como GitHub y MongoDB, desarrollando un backend",B.fK,"https://www.udemy.com/certificate/UC-5b67cccc-6576-415b-b5d7-70b1402c94b9/",null)
+B.xh=new A.h0("Programaci\xf3n de Aplicaciones para Android con Kotlin","Udemy","Julio 2024","Curso de desarrollo Android con Kotlin desde cero hasta un nivel avanzado, cubriendo Kotlin, POO, debugging, componentes de una app y buenas pr\xe1cticas.",B.fK,"https://www.udemy.com/certificate/UC-148a7f74-4fd1-4b57-9472-734b4b27f638/",null)
+B.xj=new A.h0("Aprende lenguaje GO (GOLANG) desde 0","Udemy","Febrero 2022","Go desde lo b\xe1sico hasta lo intermedio, incluyendo POO, estructuras, APIs REST y tecnolog\xedas como GitHub y MongoDB, desarrollando un backend",B.fK,"https://www.udemy.com/certificate/UC-5b67cccc-6576-415b-b5d7-70b1402c94b9/",null)
 B.xg=new A.h0("SQL - Curso completo de Bases de Datos - de 0 a Avanzado","Udemy","Noviembre 2023","Bases de Datos, MySQL, teor\xeda y pr\xe1ctica, Lenguaje SQL completo, Base de datos MySQL, Diagrama EER.",B.fK,"https://www.udemy.com/certificate/UC-e00ef6ae-ea8d-40bf-8e28-c29e6763f324/",null)
-B.Bc=A.c(s([B.xh,B.xl,B.xj,B.xi,B.xk,B.xg]),t.p)
-B.Nj=new A.ms(B.bj,24,24,B.Bc,null)
+B.B4=A.c(s([B.xk,B.xl,B.xi,B.xh,B.xj,B.xg]),t.p)
+B.Nj=new A.ms(B.bj,24,24,B.B4,null)
 B.ae=new A.oI(0,"forward")
 B.hZ=new A.oI(1,"reverse")
 B.OD=new A.a1I(0,"elevated")
@@ -64991,7 +64991,7 @@ r($,"aqP","aio",()=>A.aqk())
 r($,"axe","aiM",()=>A.d8().gxZ()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"awG","aim",()=>A.aq8(A.a9U(A.a9U(A.agx(),"window"),"FinalizationRegistry"),A.bd(new A.a6g())))
 r($,"axP","aja",()=>new A.Vy())
-s($,"awM","aiq",()=>A.amo(B.Bs))
+s($,"awM","aiq",()=>A.amo(B.Bq))
 s($,"awL","a7z",()=>A.Sk(A.ak_($.aiq())))
 s($,"awA","aij",()=>A.adQ(A.v(A.W(),"ParagraphBuilder")))
 s($,"axV","ajd",()=>{var q=t.N,p=A.ad("+breaks,graphemes,words(oA,oA,oA)"),o=A.a8E(1e5,q,p),n=A.a8E(1e4,q,p)
