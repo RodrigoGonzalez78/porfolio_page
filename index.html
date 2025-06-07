@@ -43,28 +43,32 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h1 class="fade-in">Hola, soy Rodrigo</h1>
-        <p class="subtitle fade-in">
-          Ingeniero de Software enfocado en el
-          <span class="highlight">Desarrollo Mobil y Backend</span>
-          de Corrientes, Argentina 🇦🇷
-        </p>
-        <div class="social-links fade-in">
-          <a href="https://www.linkedin.com/in/rodrigo-gonzalez-developer/" class="social-link">
-            <i data-lucide="linkedin"></i>
-            LinkedIn
-          </a>
-          <a href="https://github.com/RodrigoGonzalez78" class="social-link">
-            <i data-lucide="github"></i>
-            Github
-          </a>
-          <a href="https://play.google.com/store/apps/dev?id=5093230411941529525&hl=es_AR" class="social-link">
-            <i data-lucide="play-square"></i>
-            PlayStore
-          </a>
-        </div>
+          <h1 class="fade-in">Hola, soy Rodrigo</h1>
+          <p class="subtitle fade-in">
+              Ingeniero de Software enfocado en el
+              <span class="highlight">Desarrollo Móvil y Backend</span>
+              de Corrientes, Argentina 🇦🇷
+          </p>
+          <div class="social-links fade-in">
+              <button class="social-link contact-btn" onclick="openContactModal()">
+                  <i data-lucide="mail"></i>
+                  Contacto
+              </button>
+              <a href="https://github.com/RodrigoGonzalez78" class="social-link">
+                  <i data-lucide="github"></i>
+                  Github
+              </a>
+              <a href="https://www.linkedin.com/in/rodrigo-gonzalez-developer/" class="social-link">
+                  <i data-lucide="linkedin"></i>
+                  LinkedIn
+              </a>
+              <a href="https://play.google.com/store/apps/dev?id=5093230411941529525&hl=es_AR" class="social-link">
+                  <i data-lucide="play-square"></i>
+                  PlayStore
+              </a>
+          </div>
       </div>
-    </section>
+  </section>
 
     <section id="about" class="about">
       <div class="container">
@@ -521,9 +525,74 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/particles.min.js"></script>
   <script src="js/main.js"></script>
-  <script>
+  <div id="contactModal" class="contact-modal">
+    <div class="contact-modal-content">
+        <button class="close-modal" onclick="closeContactModal()">
+            <i data-lucide="x"></i>
+        </button>
+        
+        <h2 class="contact-form-title">
+            <i data-lucide="mail"></i>
+            Contáctame
+        </h2>
+        
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name" class="form-label">Nombre completo</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    class="form-input" 
+                    required
+                    placeholder="Tu nombre completo"
+                >
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    class="form-input" 
+                    required
+                    placeholder="tu@email.com"
+                >
+            </div>
+            
+            <div class="form-group">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    class="form-textarea" 
+                    required
+                    placeholder="Cuéntame sobre tu proyecto o consulta..."
+                ></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn" id="submitBtn">
+                <i data-lucide="send" id="submitIcon"></i>
+                Enviar mensaje
+            </button>
+            
+            <div id="messageContainer"></div>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Initialize Lucide icons
     lucide.createIcons();
-  </script>
+</script>
+
+
+
+  
+
+
+
 </body>
 
 </html>

@@ -354,3 +354,276 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+
+
+
+// ===================================
+// CONTACT FORM FUNCTIONALITY
+// ===================================
+
+/**
+ * Inicializa toda la funcionalidad del formulario de contacto
+ */
+function initContactForm() {
+  // Initialize Lucide icons
+  if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+  }
+
+  // Setup event listeners
+  setupContactModalEvents();
+  setupFormSubmission();
+  setupFormAnimations();
+}
+
+/**
+* Configura los eventos del modal de contacto
+*/
+function setupContactModalEvents() {
+  const modal = document.getElementById('contactModal');
+  
+  if (!modal) return;
+
+  // Close modal when clicking outside
+  modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+          closeContactModal();
+      }
+  });
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+          closeContactModal();
+      }
+  });
+}
+
+/**
+* Abre el modal de contacto
+*/
+function openContactModal() {
+  const modal = document.getElementById('contactModal');
+  if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+  }
+}
+
+/**
+* Cierra el modal de contacto
+*/
+function closeContactModal() {
+  const modal = document.getElementById('contactModal');
+  if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+      
+      // Reset form and messages
+      const form = document.getElementById('contactForm');
+      const messageContainer = document.getElementById('messageContainer');
+      
+      if (form) form.reset();
+      if (messageContainer) messageContainer.innerHTML = '';
+  }
+}
+
+/**
+* Configura el manejo del envío del formulario
+*/
+function setupFormSubmission() {
+  const form = document.getElementById('contactForm');
+  
+  if (!form) return;
+
+  form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      await handleFormSubmit();
+  });
+}
+
+/**
+* Maneja el envío del formulario
+*/
+async function handleFormSubmit() {
+  const submitBtn = document.getElementById('submitBtn');
+  const messageContainer = document.getElementById('messageContainer');
+  
+  // Get form data
+  const formData = getFormData();
+  
+  // Validate form
+  const validation = validateForm(formData);
+  if (!validation.isValid) {
+      showMessage(validation.message, 'error');
+      return;
+  }
+  
+  // Show loading state
+  setLoadingState(true);
+  
+  try {
+      const response = await fetch('https://contact-me-back.onrender.com/contact', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+      });
+      
+      if (response.ok) {
+          showMessage('¡Mensaje enviado exitosamente! Me pondré en contacto contigo pronto.', 'success');
+          document.getElementById('contactForm').reset();
+      } else {
+          const errorData = await response.json();
+          showMessage(errorData.message || 'Error al enviar el mensaje. Inténtalo de nuevo.', 'error');
+      }
+  } catch (error) {
+      console.error('Error:', error);
+      showMessage('Error al enviar el mensaje. Verifica tu conexión e inténtalo de nuevo.', 'error');
+  } finally {
+      setLoadingState(false);
+  }
+}
+
+/**
+* Obtiene los datos del formulario
+* @returns {Object} Datos del formulario
+*/
+function getFormData() {
+  return {
+      name: getValue('name'),
+      email: getValue('email'),
+      message: getValue('message')
+  };
+}
+
+/**
+* Obtiene el valor de un campo por ID
+* @param {string} id - ID del campo
+* @returns {string} Valor del campo
+*/
+function getValue(id) {
+  const element = document.getElementById(id);
+  return element ? element.value.trim() : '';
+}
+
+/**
+* Valida los datos del formulario
+* @param {Object} formData - Datos del formulario
+* @returns {Object} Resultado de la validación
+*/
+function validateForm(formData) {
+  // Check required fields
+  if (!formData.name || !formData.email || !formData.message) {
+      return {
+          isValid: false,
+          message: 'Por favor, completa todos los campos.'
+      };
+  }
+  
+  // Email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(formData.email)) {
+      return {
+          isValid: false,
+          message: 'Por favor, ingresa un correo electrónico válido.'
+      };
+  }
+  
+  return { isValid: true };
+}
+
+/**
+* Establece el estado de carga del botón de envío
+* @param {boolean} loading - Si está cargando o no
+*/
+function setLoadingState(loading) {
+  const submitBtn = document.getElementById('submitBtn');
+  
+  if (!submitBtn) return;
+  
+  if (loading) {
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<i data-lucide="loader-2" class="loading"></i> Enviando...';
+  } else {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = '<i data-lucide="send"></i> Enviar mensaje';
+  }
+  
+  // Refresh icons
+  if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+  }
+}
+
+/**
+* Muestra un mensaje al usuario
+* @param {string} text - Texto del mensaje
+* @param {string} type - Tipo de mensaje ('success' o 'error')
+*/
+function showMessage(text, type) {
+  const messageContainer = document.getElementById('messageContainer');
+  
+  if (!messageContainer) return;
+  
+  const iconName = type === 'success' ? 'check-circle' : 'alert-circle';
+  
+  messageContainer.innerHTML = `
+      <div class="message ${type}">
+          <i data-lucide="${iconName}"></i>
+          ${text}
+      </div>
+  `;
+  
+  // Refresh icons
+  if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+  }
+  
+  // Auto-hide after 5 seconds
+  setTimeout(() => {
+      messageContainer.innerHTML = '';
+  }, 5000);
+}
+
+/**
+* Configura las animaciones de los campos del formulario
+*/
+function setupFormAnimations() {
+  const inputs = document.querySelectorAll('.form-input, .form-textarea');
+  
+  inputs.forEach(input => {
+      input.addEventListener('focus', function() {
+          if (this.parentElement) {
+              this.parentElement.style.transform = 'translateY(-2px)';
+          }
+      });
+      
+      input.addEventListener('blur', function() {
+          if (this.parentElement) {
+              this.parentElement.style.transform = 'translateY(0)';
+          }
+      });
+  });
+}
+
+// ===================================
+// INITIALIZATION
+// ===================================
+
+/**
+* Inicializa el formulario de contacto cuando el DOM esté listo
+*/
+function initContactFormOnReady() {
+  if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initContactForm);
+  } else {
+      initContactForm();
+  }
+}
+
+// Auto-initialize
+initContactFormOnReady();
