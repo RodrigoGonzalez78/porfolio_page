@@ -1,0 +1,161 @@
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger delay for multiple elements */
+.hero h1 {
+  animation-delay: 0.2s;
+}
+
+.hero .subtitle {
+  animation-delay: 0.4s;
+}
+
+.social-links {
+  animation-delay: 0.6s;
+}
+
+/* Hover animations */
+.skill-badge,
+.certificate-card,
+.project-card,
+.social-link {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Pulse animation for timeline dots */
+.timeline-dot {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(78, 205, 196, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(78, 205, 196, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(78, 205, 196, 0);
+  }
+}
+
+/* Project image zoom effect */
+.project-image img {
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+/* Button hover effect */
+.project-btn {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.project-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.project-btn:hover {
+  color: var(--color-background);
+}
+
+.project-btn:hover::before {
+  left: 0;
+}
+
+/* Timeline item slide-in */
+.timeline-item {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.timeline-item.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Nav link underline animation */
+.nav-links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+  margin-top: 3px;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Modal animation */
+.modal.show {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.modal-content {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.modal.show .modal-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hamburger menu animation */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Floating animation for cards on hover */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.project-card:hover,
+.certificate-card:hover {
+  animation: float 2s ease-in-out infinite;
+}
