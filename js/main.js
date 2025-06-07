@@ -155,11 +155,23 @@ document.addEventListener('DOMContentLoaded', () => {
         'Carrito de compras',
         'Sistema de autenticación de usuarios',
         'Panel de administración para gestionar productos',
+        'Panel de gestion de usuarios',
+        'Facturas',
+        'Gestion de compras',
+        'Edición y eliminación de productos',
         'Integración con base de datos PostgreSQL'
       ],
       technologies: ['Golang', 'PostgreSQL', 'HTML', 'CSS', 'JWT', 'Bootstrap'],
       images: [
-        'assets/images/home.png'
+        'assets/images/ecommerce/home.png',
+        'assets/images/ecommerce/login.png',
+        'assets/images/ecommerce/signup.png',
+        'assets/images/ecommerce/products.png',
+        'assets/images/ecommerce/carrito_vacio.png',
+        'assets/images/ecommerce/carrito.png',
+        'assets/images/ecommerce/compras.png',
+        'assets/images/ecommerce/factura.png'
+
       ]
     },
     project2: {
