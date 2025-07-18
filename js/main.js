@@ -361,7 +361,7 @@ async function handleFormSubmit() {
   setLoadingState(true)
 
   try {
-    const response = await fetch("http://146.235.41.94:8080/contact", {
+    const response = await fetch("https://thingproxy.freeboard.io/fetch/http://146.235.41.94:8080/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
