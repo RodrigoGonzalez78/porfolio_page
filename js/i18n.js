@@ -119,15 +119,18 @@ class I18nManager {
         title: projects.project5.title,
         description: projects.project5.description,
         features: projects.project5.features,
-        technologies: ["Golang", "SQLite", "JWT", "GORM", "Gorilla Mux"],
+        technologies: ["Golang","Docker","Minio", "SQLite", "JWT", "GORM", "Gorilla Mux"],
         images: ["assets/images/img_proc.png"],
       },
       project6: {
         title: projects.project6.title,
         description: projects.project6.description,
         features: projects.project6.features,
-        technologies: ["Flutter", "SQLite", "Provider"],
-        images: ["assets/images/gestion.png"],
+        technologies: ["Android", "Kotlin", "Room", "Hilt", "MVVM", "Coroutines","Clean Architecture","Jetpack Compose"],
+        images: [
+          "assets/images/gestion.png",
+          "assets/images/gestion2.png"
+        ],
       },
     }
   }

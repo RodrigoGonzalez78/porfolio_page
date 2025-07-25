@@ -18,10 +18,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <script>
-    fetch("https://contact-me-back.onrender.com/health")
-      .then(() => console.log("Petición enviada para despertar el servicio"))
-      .catch((err) => console.error("Error al despertar el servicio:", err));
-  </script>
+  fetch("https://contact-me-back.onrender.com/health")
+    .then(() => console.log("Petición enviada para despertar el servicio"))
+    .catch((err) => console.error("Error al despertar el servicio:", err));
+</script>
+
 <body>
   <div id="particles-js"></div>
 
@@ -32,18 +33,21 @@
         <ul class="nav-links">
           <li><a href="#about"><i data-lucide="user"></i> <span data-i18n="nav.about">Sobre mí</span></a></li>
           <li><a href="#skills"><i data-lucide="code"></i> <span data-i18n="nav.skills">Habilidades</span></a></li>
-          <li><a href="#education"><i data-lucide="graduation-cap"></i> <span data-i18n="nav.education">Educación</span></a></li>
-          <li><a href="#certifications"><i data-lucide="award"></i> <span data-i18n="nav.certifications">Certificaciones</span></a></li>
-          <li><a href="#projects"><i data-lucide="folder-git-2"></i> <span data-i18n="nav.projects">Proyectos</span></a></li>
-        <div class="language-toggle">
-          <button id="languageToggle" class="language-btn">
-            <span id="currentLang">ES</span>
-            <i data-lucide="globe"></i>
-          </button>
-        </div>
-        
+          <li><a href="#education"><i data-lucide="graduation-cap"></i> <span
+                data-i18n="nav.education">Educación</span></a></li>
+          <li><a href="#certifications"><i data-lucide="award"></i> <span
+                data-i18n="nav.certifications">Certificaciones</span></a></li>
+          <li><a href="#projects"><i data-lucide="folder-git-2"></i> <span data-i18n="nav.projects">Proyectos</span></a>
+          </li>
+          <div class="language-toggle">
+            <button id="languageToggle" class="language-btn">
+              <span id="currentLang">ES</span>
+              <i data-lucide="globe"></i>
+            </button>
+          </div>
+
         </ul>
-        
+
         <div class="hamburger">
           <span></span>
           <span></span>
@@ -87,9 +91,11 @@
       <div class="container">
         <h2 class="section-title"><i data-lucide="user"></i> <span data-i18n="about.title">Mas sobre mí</span></h2>
         <div class="about-content">
-          <p data-i18n="about.paragraph1">Me llamo Rodrigo Alejandro González. Comencé mi camino en la programación con Java en la secundaria, y más
+          <p data-i18n="about.paragraph1">Me llamo Rodrigo Alejandro González. Comencé mi camino en la programación con
+            Java en la secundaria, y más
             tarde me adentré en el desarrollo de videojuegos como hobby, utilizando Unity y C#.</p>
-          <p data-i18n="about.paragraph2">Hoy en día, me especializo en el desarrollo de aplicaciones móviles, desde el diseño hasta su publicación,
+          <p data-i18n="about.paragraph2">Hoy en día, me especializo en el desarrollo de aplicaciones móviles, desde el
+            diseño hasta su publicación,
             aplicando buenas prácticas como Clean Architecture e inyección de dependencias. Me esfuerzo por mantenerme
             en constante aprendizaje, mejorando mis habilidades y desarrollando mis propios backends, adquiriendo
             conocimientos en APIs REST, bases de datos, arquitectura y redes, usando para esto Golang.</p>
@@ -169,7 +175,8 @@
 
     <section id="education" class="education">
       <div class="container">
-        <h2 class="section-title"><i data-lucide="graduation-cap"></i> <span data-i18n="education.title">Educación</span></h2>
+        <h2 class="section-title"><i data-lucide="graduation-cap"></i> <span
+            data-i18n="education.title">Educación</span></h2>
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-dot"></div>
@@ -178,10 +185,12 @@
                 <i data-lucide="book-open"></i>
                 <span data-i18n="education.degree1.title">Licenciatura en Sistemas de Información</span>
               </h3>
-              <h4 class="timeline-subtitle" data-i18n="education.degree1.institution">Universidad Nacional del Nordeste</h4>
+              <h4 class="timeline-subtitle" data-i18n="education.degree1.institution">Universidad Nacional del Nordeste
+              </h4>
               <span class="timeline-period" data-i18n="education.degree1.period">En curso</span>
               <p class="timeline-description" data-i18n="education.degree1.description">
-                Formación en Ingeniería de Software, Bases de Datos, Redes, Sistemas Operativos, Arquitectura de Computadoras.
+                Formación en Ingeniería de Software, Bases de Datos, Redes, Sistemas Operativos, Arquitectura de
+                Computadoras.
               </p>
             </div>
           </div>
@@ -193,10 +202,12 @@
                 <i data-lucide="code"></i>
                 <span data-i18n="education.degree2.title">Analista Programador Universitario</span>
               </h3>
-              <h4 class="timeline-subtitle" data-i18n="education.degree2.institution">Universidad Nacional del Nordeste</h4>
+              <h4 class="timeline-subtitle" data-i18n="education.degree2.institution">Universidad Nacional del Nordeste
+              </h4>
               <span class="timeline-period" data-i18n="education.degree2.period">2021–2025</span>
               <p class="timeline-description" data-i18n="education.degree2.description">
-                Formación en algoritmos, estructuras de datos, programación orientada a objetos y funcional, bases de datos e ingeniería de software.
+                Formación en algoritmos, estructuras de datos, programación orientada a objetos y funcional, bases de
+                datos e ingeniería de software.
               </p>
             </div>
           </div>
@@ -210,7 +221,8 @@
               </h3>
               <h4 class="timeline-subtitle" data-i18n="education.degree3.institution">Escuela Técnica Ita Ibate</h4>
               <span class="timeline-period" data-i18n="education.degree3.period">2012-2020</span>
-              <p class="timeline-description" data-i18n="education.degree3.description">Me introdujo al mundo de la computación, aprendiendo los conceptos básicos
+              <p class="timeline-description" data-i18n="education.degree3.description">Me introdujo al mundo de la
+                computación, aprendiendo los conceptos básicos
                 de hardware y software.</p>
             </div>
           </div>
@@ -220,7 +232,8 @@
 
     <section id="certifications" class="certifications">
       <div class="container">
-        <h2 class="section-title"><i data-lucide="award"></i> <span data-i18n="certifications.title">Certificaciones y Cursos</span></h2>
+        <h2 class="section-title"><i data-lucide="award"></i> <span data-i18n="certifications.title">Certificaciones y
+            Cursos</span></h2>
         <div class="certificates-grid">
           <div class="certificate-card">
             <a href="https://www.hackerrank.com/certificates/09b125616aae" class="certificate-link" target="_blank">
@@ -234,7 +247,8 @@
                 </div>
               </div>
               <h3 class="certificate-title" data-i18n="certifications.cert1.title">Go (Intermediate) Certificate</h3>
-              <p class="certificate-description" data-i18n="certifications.cert1.description">Incluye trabajar con funciones, punteros, manejo de archivos, creación
+              <p class="certificate-description" data-i18n="certifications.cert1.description">Incluye trabajar con
+                funciones, punteros, manejo de archivos, creación
                 de servicios web en Go y manejo de errores.</p>
             </a>
           </div>
@@ -251,13 +265,13 @@
                 </div>
               </div>
               <h3 class="certificate-title" data-i18n="certifications.cert2.title">SQL (Basic) Certificate</h3>
-              <p class="certificate-description" data-i18n="certifications.cert2.description">Incluye consultas simples, relaciones y agregadores.</p>
+              <p class="certificate-description" data-i18n="certifications.cert2.description">Incluye consultas simples,
+                relaciones y agregadores.</p>
             </a>
           </div>
 
           <div class="certificate-card">
-            <a href="https://www.hackerrank.com/certificates/76b51c0f9dd9"
-              class="certificate-link" target="_blank">
+            <a href="https://www.hackerrank.com/certificates/76b51c0f9dd9" class="certificate-link" target="_blank">
               <div class="certificate-header">
                 <div class="certificate-logo">
                   <i data-lucide="file-code"></i>
@@ -268,7 +282,8 @@
                 </div>
               </div>
               <h3 class="certificate-title" data-i18n="certifications.cert3.title">Python (Basic) Certificate</h3>
-              <p class="certificate-description" data-i18n="certifications.cert3.description">Cubre temas como tipos escalares, operadores y flujo de control,
+              <p class="certificate-description" data-i18n="certifications.cert3.description">Cubre temas como tipos
+                escalares, operadores y flujo de control,
                 cadenas,
                 colecciones e iteración, modularidad, objetos y tipos y clases.</p>
             </a>
@@ -286,8 +301,10 @@
                   <span>Julio 2024</span>
                 </div>
               </div>
-              <h3 class="certificate-title" data-i18n="certifications.cert4.title">Programación de Aplicaciones para Android con Kotlin</h3>
-              <p class="certificate-description" data-i18n="certifications.cert4.description">Curso de desarrollo Android con Kotlin desde cero hasta un nivel
+              <h3 class="certificate-title" data-i18n="certifications.cert4.title">Programación de Aplicaciones para
+                Android con Kotlin</h3>
+              <p class="certificate-description" data-i18n="certifications.cert4.description">Curso de desarrollo
+                Android con Kotlin desde cero hasta un nivel
                 avanzado, cubriendo Kotlin, POO, debugging, componentes de una app y buenas prácticas.</p>
             </a>
           </div>
@@ -304,8 +321,10 @@
                   <span>Febrero 2022</span>
                 </div>
               </div>
-              <h3 class="certificate-title" data-i18n="certifications.cert5.title">Aprende lenguaje GO (GOLANG) desde 0</h3>
-              <p class="certificate-description" data-i18n="certifications.cert5.description">Go desde lo básico hasta lo intermedio, incluyendo POO, estructuras,
+              <h3 class="certificate-title" data-i18n="certifications.cert5.title">Aprende lenguaje GO (GOLANG) desde 0
+              </h3>
+              <p class="certificate-description" data-i18n="certifications.cert5.description">Go desde lo básico hasta
+                lo intermedio, incluyendo POO, estructuras,
                 APIs
                 REST y tecnologías como GitHub y MongoDB, desarrollando un backend.</p>
             </a>
@@ -323,8 +342,10 @@
                   <span>Noviembre 2023</span>
                 </div>
               </div>
-              <h3 class="certificate-title" data-i18n="certifications.cert6.title">SQL - Curso completo de Bases de Datos - de 0 a Avanzado</h3>
-              <p class="certificate-description" data-i18n="certifications.cert6.description">Bases de Datos, MySQL, teoría y práctica, Lenguaje SQL completo, Base
+              <h3 class="certificate-title" data-i18n="certifications.cert6.title">SQL - Curso completo de Bases de
+                Datos - de 0 a Avanzado</h3>
+              <p class="certificate-description" data-i18n="certifications.cert6.description">Bases de Datos, MySQL,
+                teoría y práctica, Lenguaje SQL completo, Base
                 de
                 datos MySQL, Diagrama EER.</p>
             </a>
@@ -336,7 +357,8 @@
 
     <section id="projects" class="projects">
       <div class="container">
-        <h2 class="section-title"><i data-lucide="folder-git-2"></i> <span data-i18n="projects.title">Proyectos</span></h2>
+        <h2 class="section-title"><i data-lucide="folder-git-2"></i> <span data-i18n="projects.title">Proyectos</span>
+        </h2>
         <div class="projects-grid">
           <div class="project-card" data-id="project1">
             <div class="project-image">
@@ -344,7 +366,8 @@
             </div>
             <div class="project-content">
               <h3 class="project-title" data-i18n="projects.project1.title">MountainTech - Ecommerce de Hardware</h3>
-              <p class="project-description" data-i18n="projects.project1.description">Tienda venta de componentes de computadora. Hecha completamente con Golang,
+              <p class="project-description" data-i18n="projects.project1.description">Tienda venta de componentes de
+                computadora. Hecha completamente con Golang,
                 HTML, CSS, Bootstrap. Utilizando el sistema de renderisado de plantillas en el Servidor de Golang y
                 PostgreSQL para almacenar los datos.</p>
               <div class="project-techs">
@@ -367,7 +390,8 @@
             </div>
             <div class="project-content">
               <h3 class="project-title" data-i18n="projects.project2.title">Twitter(X) Clone App</h3>
-              <p class="project-description" data-i18n="projects.project2.description">Hecha desde cero con android nativo para la aplicacion usando Retrofit,
+              <p class="project-description" data-i18n="projects.project2.description">Hecha desde cero con android
+                nativo para la aplicacion usando Retrofit,
                 Room, inyección de dependencias y Clean Architecture, también hice el backend con Golang usando MongoDB,
                 JWT y Gorilla Mux.</p>
               <div class="project-techs">
@@ -391,7 +415,8 @@
             </div>
             <div class="project-content">
               <h3 class="project-title" data-i18n="projects.project3.title">Investigación sobre Microservicios</h3>
-              <p class="project-description" data-i18n="projects.project3.description">Realicé un proyecto de investigación en el que comparé las arquitecturas
+              <p class="project-description" data-i18n="projects.project3.description">Realicé un proyecto de
+                investigación en el que comparé las arquitecturas
                 monolíticas y de microservicios, desde el diseño, implementación, pruebas de carga y monitorización.</p>
               <div class="project-techs">
                 <span class="tech-badge">Golang</span>
@@ -415,7 +440,8 @@
             </div>
             <div class="project-content">
               <h3 class="project-title" data-i18n="projects.project4.title">Task Manager</h3>
-              <p class="project-description" data-i18n="projects.project4.description">Una aplicación escrita en Android nativo, con Retrofit, Hilt y DataStore.
+              <p class="project-description" data-i18n="projects.project4.description">Una aplicación escrita en Android
+                nativo, con Retrofit, Hilt y DataStore.
                 Esta se basa en una API que construí con Golang, usando Gorilla Mux, GORM, PostgreSQL y autenticación
                 con JWT.</p>
               <div class="project-techs">
@@ -438,15 +464,20 @@
             </div>
             <div class="project-content">
               <h3 class="project-title" data-i18n="projects.project5.title">API de Procesamiento de Imágenes</h3>
-              <p class="project-description" data-i18n="projects.project5.description">Realicé un API RESTful en Golang que permite subir imágenes, almacenarlas y
-                aplicarles diferentes filtros, como escala de grises, sepia, etc. Utiliza GORM para la gestión de la
-                base de datos y JWT para la autenticación de usuarios.</p>
+              <p class="project-description" data-i18n="projects.project5.description">
+                API REST desarrollada en <strong>Go</strong> para aplicar transformaciones a imágenes subidas por el
+                usuario, como <strong>recorte</strong>, <strong>redimensionamiento</strong>, <strong>rotación</strong> y
+                <strong>filtros</strong> (escala de grises, sepia, entre otros). Las imágenes se almacenan en
+                <strong>MinIO</strong> y el procesamiento se realiza en tiempo real. Incluye autenticación con
+                <strong>JWT</strong> y gestión de datos con <strong>GORM</strong>.
+              </p>
               <div class="project-techs">
                 <span class="tech-badge">Golang</span>
-                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">MinIO</span>
                 <span class="tech-badge">JWT</span>
                 <span class="tech-badge">GORM</span>
                 <span class="tech-badge">Gorilla Mux</span>
+                <span class="tech-badge">Docker</span>
               </div>
               <a href="https://github.com/RodrigoGonzalez78/image_processing" class="project-btn" target="_blank">
                 <i data-lucide="code"></i> <span data-i18n="projects.viewCode">Ver código</span>
@@ -461,12 +492,22 @@
             </div>
             <div class="project-content">
               <h3 class="project-title" data-i18n="projects.project6.title">Gestor de Gastos</h3>
-              <p class="project-description" data-i18n="projects.project6.description">Aplicación hecha en Flutter que permite gestionar los gastos y ingresos de
-                una persona. Utiliza Provider para la gestión del estado y SQLite para el almacenamiento de datos.</p>
+              <p class="project-description" data-i18n="projects.project6.description">
+                Aplicación móvil desarrollada en <strong>Kotlin</strong> utilizando <strong>Android Nativo</strong> con
+                <strong>Jetpack Compose</strong>, orientada a facilitar el control de tus finanzas personales.
+                Implementa una <strong>Clean Architecture</strong> con patrón <strong>Repository</strong>, navegación
+                segura, persistencia local con <strong>Room</strong> e inyección de dependencias mediante
+                <strong>Hilt</strong>.
+              </p>
               <div class="project-techs">
-                <span class="tech-badge">Flutter</span>
-                <span class="tech-badge">SQLite</span>
-                <span class="tech-badge">Provider</span>
+                <span class="tech-badge">Android</span>
+                <span class="tech-badge">Kotlin</span>
+                <span class="tech-badge">Room</span>
+                <span class="tech-badge">Hilt</span>
+                <span class="tech-badge">MVVM</span>
+                <span class="tech-badge">Coroutines</span>
+                <span class="tech-badge">Clean Architecture</span>
+                <span class="tech-badge">Jetpack Compose</span>
               </div>
               <a href="https://play.google.com/store/apps/details?id=com.rocketstudio99.gestor_de_gastos&hl=es_AR"
                 class="project-btn" target="_blank">
@@ -520,12 +561,14 @@
       <form id="contactForm" class="contact-form">
         <div class="form-group">
           <label for="name" class="form-label" data-i18n="contact.name">Nombre completo</label>
-          <input type="text" id="name" name="name" class="form-input" required data-i18n-placeholder="contact.namePlaceholder">
+          <input type="text" id="name" name="name" class="form-input" required
+            data-i18n-placeholder="contact.namePlaceholder">
         </div>
 
         <div class="form-group">
           <label for="email" class="form-label" data-i18n="contact.email">Correo electrónico</label>
-          <input type="email" id="email" name="email" class="form-input" required data-i18n-placeholder="contact.emailPlaceholder">
+          <input type="email" id="email" name="email" class="form-input" required
+            data-i18n-placeholder="contact.emailPlaceholder">
         </div>
 
         <div class="form-group">

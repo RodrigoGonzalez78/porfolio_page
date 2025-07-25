@@ -142,25 +142,31 @@ const TRANSLATIONS = {
       project5: {
         title: "API de Procesamiento de Imágenes",
         description:
-          "Realicé una API RESTful en Golang que permite subir imágenes, almacenarlas y aplicarles diferentes filtros, como escala de grises, sepia, etc. Utiliza GORM para la gestión de la base de datos y JWT para la autenticación de usuarios.",
+          "API REST desarrollada en Golang que permite subir imágenes, almacenarlas en MinIO y aplicar transformaciones como recorte, redimensionamiento, rotación y filtros (escala de grises, sepia, inversión). Procesamiento en tiempo real, con autenticación JWT y base de datos gestionada con GORM.",
         features: [
-          "Subida de imágenes",
+          "Subida y almacenamiento de imágenes con MinIO",
+          "Transformaciones: recorte, redimensionamiento, rotación",
           "Filtros: escala de grises, sepia, inversión",
+          "Procesamiento en tiempo real",
           "Autenticación JWT",
           "Base de datos con GORM",
+          "Contenedores con Docker",
           "Endpoints RESTful",
         ],
       },
       project6: {
         title: "Gestor de Gastos",
         description:
-          "Aplicación hecha en Flutter que permite gestionar los gastos y ingresos de una persona. Utiliza Provider para la gestión del estado y SQLite para el almacenamiento de datos.",
+          "Aplicación móvil desarrollada en Kotlin con Android Nativo utilizando Jetpack Compose. Permite gestionar los ingresos y gastos personales con una arquitectura robusta y moderna.",
         features: [
           "Registro de ingresos y gastos",
           "Categorías personalizables",
           "Estadísticas y gráficos",
-          "Persistencia con SQLite",
-          "Gestión del estado con Provider",
+          "Persistencia local con Room",
+          "Inyección de dependencias con Hilt",
+          "Arquitectura limpia (Clean Architecture)",
+          "Gestión con Coroutines y ViewModel (MVVM)",
+          "Interfaz moderna con Jetpack Compose",
         ],
       },
     },
@@ -319,27 +325,35 @@ const TRANSLATIONS = {
       project5: {
         title: "Image Processing API",
         description:
-          "I made a RESTful API in Golang that allows uploading images, storing them and applying different filters, such as grayscale, sepia, etc. It uses GORM for database management and JWT for user authentication.",
+          "REST API built in Golang that allows uploading images, storing them in MinIO, and applying transformations such as cropping, resizing, rotation, and filters (grayscale, sepia, inversion). Real-time processing with JWT authentication and database management using GORM.",
         features: [
-          "Image upload",
+          "Image upload and storage with MinIO",
+          "Transformations: crop, resize, rotate",
           "Filters: grayscale, sepia, inversion",
+          "Real-time processing",
           "JWT authentication",
           "Database with GORM",
+          "Docker containers",
           "RESTful endpoints",
         ],
       },
+
       project6: {
         title: "Expense Manager",
         description:
-          "Application made in Flutter that allows managing a person's expenses and income. It uses Provider for state management and SQLite for data storage.",
+          "Mobile application developed in Kotlin using Android Native with Jetpack Compose. It helps manage personal income and expenses with a robust and modern architecture.",
         features: [
-          "Income and expense recording",
+          "Income and expense tracking",
           "Customizable categories",
           "Statistics and charts",
-          "Persistence with SQLite",
-          "State management with Provider",
+          "Local persistence with Room",
+          "Dependency injection with Hilt",
+          "Clean Architecture structure",
+          "State handling with Coroutines and ViewModel (MVVM)",
+          "Modern UI using Jetpack Compose",
         ],
       },
+
     },
     contact: {
       title: "Contact me",
