@@ -361,7 +361,7 @@ async function handleFormSubmit() {
   setLoadingState(true)
 
   try {
-    const response = await fetch("https://contact-me-back.onrender.com/contact", {
+    const response = await fetch("https://rodrigo--contac-me--kqzvbz4xsv45.code.run/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
