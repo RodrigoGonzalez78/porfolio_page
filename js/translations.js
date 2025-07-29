@@ -128,15 +128,16 @@ const TRANSLATIONS = {
         ],
       },
       project4: {
-        title: "Task Manager",
+        title: "Event Manager-En Desarrollo",
         description:
-          "Una aplicación escrita en Android nativo, con Retrofit, Hilt y DataStore. Esta se basa en una API que construí con Golang, usando Gorilla Mux, GORM, PostgreSQL y autenticación con JWT.",
+          "Aplicación móvil nativa para Android con arquitectura limpia. Permite crear, editar y gestionar eventos, organizadores, tipos de tickets, validación con códigos QR, notificaciones y mapas. El backend está hecho en Golang, usando GORM, PostgreSQL, Swagger, MinIO y Docker.",
         features: [
-          "Gestión de tareas por usuario",
-          "Autenticación JWT",
-          "Sincronización con API REST",
-          "Interfaz intuitiva con Jetpack Compose",
-          "API RESTful completa",
+          "Gestión completa de eventos y tickets",
+          "Generación y validación de QR",
+          "Autenticación y autorización con JWT",
+          "Almacenamiento de imágenes con MinIO",
+          "Notificaciones y ubicación con Google Maps",
+          "Sincronización mediante API RESTful",
         ],
       },
       project5: {
@@ -311,15 +312,16 @@ const TRANSLATIONS = {
         ],
       },
       project4: {
-        title: "Task Manager",
+        title: "Event Manager-In development",
         description:
-          "An application written in native Android, with Retrofit, Hilt and DataStore. This is based on an API that I built with Golang, using Gorilla Mux, GORM, PostgreSQL and JWT authentication.",
+          "A native Android mobile application with Clean Architecture. It allows creation and management of events, organizers, ticket types, QR validation, notifications, and maps. The backend is built in Golang using GORM, PostgreSQL, Swagger, MinIO and Docker.",
         features: [
-          "Task management per user",
-          "JWT authentication",
-          "Synchronization with REST API",
-          "Intuitive interface with Jetpack Compose",
-          "Complete RESTful API",
+          "Full event and ticket management",
+          "QR code generation and validation",
+          "Authentication and authorization with JWT",
+          "Image storage with MinIO",
+          "Notifications and location via Google Maps",
+          "Synchronization via RESTful API",
         ],
       },
       project5: {
