@@ -21,7 +21,7 @@ const TRANSLATIONS = {
     about: {
       title: "Mas sobre mí",
       paragraph1:
-        "Me llamo Rodrigo Alejandro González. Comencé mi camino en la programación con Java en la secundaria, y más tarde me adentré en el desarrollo de videojuegos como hobby, utilizando Unity y C#.",
+        "Ingeniero de Software especializado en desarrollo móvil Android y backend, con sólida experiencia en la creación de aplicaciones nativas utilizando Kotlin, Jetpack Compose y arquitecturas modernas como Clean Architecture y MVVM. Competente en el desarrollo de APIs REST y WebSockets con Golang, así como en uso de bases de datos. Formación académica en Sistemas de Información complementada con certificaciones técnicas en las principales tecnologías del stack. Adaptable a distintos proyectos y entornos tecnológicos.",
       paragraph2:
         "Hoy en día, me especializo en el desarrollo de aplicaciones móviles, desde el diseño hasta su publicación, aplicando buenas prácticas como Clean Architecture e inyección de dependencias. Me esfuerzo por mantenerme en constante aprendizaje, mejorando mis habilidades y desarrollando mis propios backends, adquiriendo conocimientos en APIs REST, bases de datos, arquitectura y redes, usando para esto Golang.",
     },
@@ -213,7 +213,7 @@ const TRANSLATIONS = {
     about: {
       title: "More about me",
       paragraph1:
-        "My name is Rodrigo Alejandro González. I started my programming journey with Java in high school, and later got into game development as a hobby, using Unity and C#.",
+        "Software Engineer specialized in Android mobile and backend development, with solid experience in building native applications using Kotlin, Jetpack Compose, and modern architectures such as Clean Architecture and MVVM. Skilled in developing REST APIs and WebSockets with Golang, as well as working with databases. Academic background in Information Systems complemented by technical certifications in key technologies of the stack. Adaptable to different projects and technological environments.",
       paragraph2:
         "Today, I specialize in mobile application development, from design to publication, applying good practices like Clean Architecture and dependency injection. I strive to keep learning constantly, improving my skills and developing my own backends, acquiring knowledge in REST APIs, databases, architecture and networks, using Golang for this.",
     },
