@@ -8,6 +8,7 @@ const TRANSLATIONS = {
       about: "Sobre mí",
       skills: "Habilidades",
       education: "Educación",
+      experience: "Experiencia",
       certifications: "Certificaciones",
       projects: "Proyectos",
     },
@@ -50,6 +51,15 @@ const TRANSLATIONS = {
         period: "2012-2020",
         description:
           "Me introdujo al mundo de la computación, aprendiendo los conceptos básicos de hardware y software.",
+      },
+    },
+    experience: {
+      title: "Experiencia",
+      job1: {
+        title: "Pasante en Desarrollo de Software",
+        company: "CECONEA - Centro de Cómputos de la Universidad Nacional del Nordeste",
+        period: "Enero 2026 - Actualidad",
+        description: "Desarrollo de soluciones de inteligencia artificial aplicadas al procesamiento de documentos. Implementación de modelos de reconocimiento óptico de caracteres (OCR), procesamiento de lenguaje natural (NLP) y técnicas de anonimización de datos sensibles utilizando Python y modelos de lenguaje (LLM).",
       },
     },
     certifications: {
@@ -201,6 +211,7 @@ const TRANSLATIONS = {
       about: "About me",
       skills: "Skills",
       education: "Education",
+      experience: "Experience",
       certifications: "Certifications",
       projects: "Projects",
     },
@@ -241,6 +252,15 @@ const TRANSLATIONS = {
         institution: "Escuela Técnica Ita Ibate",
         period: "2012-2020",
         description: "Introduced me to the world of computing, learning the basic concepts of hardware and software.",
+      },
+    },
+    experience: {
+      title: "Experience",
+      job1: {
+        title: "Software Development Intern",
+        company: "CECONEA - Computing Center of the Universidad Nacional del Nordeste",
+        period: "January 2026 - Present",
+        description: "Development of artificial intelligence solutions applied to document processing. Implementation of optical character recognition (OCR) models, natural language processing (NLP), and data anonymization techniques using Python and large language models (LLM).",
       },
     },
     certifications: {
