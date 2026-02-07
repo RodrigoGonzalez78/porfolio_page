@@ -88,6 +88,7 @@ const TRANSLATIONS = {
       title: "Proyectos",
       viewCode: "Ver código",
       viewPlayStore: "Ver en Play Store",
+      visitApi: "Visitar API",
       project1: {
         title: "MountainTech - Ecommerce de Hardware",
         description:
@@ -277,6 +278,7 @@ const TRANSLATIONS = {
       title: "Projects",
       viewCode: "View code",
       viewPlayStore: "View on Play Store",
+      visitApi: "Visit API",
       project1: {
         title: "MountainTech - Hardware Ecommerce",
         description:

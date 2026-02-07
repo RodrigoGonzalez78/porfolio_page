@@ -488,6 +488,7 @@ section {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
 }
 
 .project-btn svg {
@@ -658,6 +659,7 @@ section {
     width: 95%;
     padding: var(--spacing-lg);
   }
+
   .nav-links {
     display: none;
     position: absolute;
@@ -718,6 +720,7 @@ section {
   .contact-modal-content {
     padding: var(--spacing-md);
   }
+
   .skill-badge {
     width: 100px;
     height: 100px;
@@ -760,15 +763,16 @@ section {
   border: none;
   cursor: pointer;
   transition: var(--transition);
-  color: var(--color-background);   /* aquí pones el color que quieras */
-  font-weight: bold;  
+  color: var(--color-background);
+  /* aquí pones el color que quieras */
+  font-weight: bold;
 }
 
 .contact-btn:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: var(--shadow-md);
   background-color: var(--color-accent);
-  color: var(--color-on-accent); 
+  color: var(--color-on-accent);
 }
 
 /* Contact Modal */
@@ -792,8 +796,13 @@ section {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .contact-modal-content {
@@ -808,11 +817,12 @@ section {
 }
 
 @keyframes slideUp {
-  from { 
+  from {
     transform: translateY(50px);
     opacity: 0;
   }
-  to { 
+
+  to {
     transform: translateY(0);
     opacity: 1;
   }
@@ -936,8 +946,13 @@ section {
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Success/Error Messages */
@@ -978,6 +993,7 @@ section {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
