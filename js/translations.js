@@ -115,29 +115,7 @@ const TRANSLATIONS = {
           "Integración con base de datos PostgreSQL",
         ],
       },
-      project2: {
-        title: "Twitter(X) Clone App",
-        description:
-          "Hecha desde cero con android nativo para la aplicación usando Retrofit, Room, inyección de dependencias y Clean Architecture, también hice el backend con Golang usando MongoDB, JWT y Gorilla Mux.",
-        features: [
-          "Autenticación de usuarios",
-          "Publicación de tweets",
-          "Seguimiento de usuarios",
-          "API completa en Golang",
-        ],
-      },
-      project3: {
-        title: "Investigación sobre Microservicios",
-        description:
-          "Realicé un proyecto de investigación en el que comparé las arquitecturas monolíticas y de microservicios, desde el diseño, implementación, pruebas de carga y monitorización.",
-        features: [
-          "Diseño e implementación de arquitectura monolítica y microservicios",
-          "Pruebas de carga con JMeter",
-          "Monitorización con Prometheus y Grafana",
-          "Uso de Docker para contenerización",
-          "Comparativas de rendimiento y escalabilidad",
-        ],
-      },
+
       project4: {
         title: "Event Manager-En Desarrollo",
         description:
@@ -151,21 +129,7 @@ const TRANSLATIONS = {
           "Sincronización mediante API RESTful",
         ],
       },
-      project5: {
-        title: "API de Procesamiento de Imágenes",
-        description:
-          "API REST desarrollada en Golang que permite subir imágenes, almacenarlas en MinIO y aplicar transformaciones como recorte, redimensionamiento, rotación y filtros (escala de grises, sepia, inversión). Procesamiento en tiempo real, con autenticación JWT y base de datos gestionada con GORM.",
-        features: [
-          "Subida y almacenamiento de imágenes con MinIO",
-          "Transformaciones: recorte, redimensionamiento, rotación",
-          "Filtros: escala de grises, sepia, inversión",
-          "Procesamiento en tiempo real",
-          "Autenticación JWT",
-          "Base de datos con GORM",
-          "Contenedores con Docker",
-          "Endpoints RESTful",
-        ],
-      },
+
       project6: {
         title: "Gestor de Gastos",
         description:
@@ -315,24 +279,7 @@ const TRANSLATIONS = {
           "PostgreSQL database integration",
         ],
       },
-      project2: {
-        title: "Twitter(X) Clone App",
-        description:
-          "Made from scratch with native Android for the application using Retrofit, Room, dependency injection and Clean Architecture, I also made the backend with Golang using MongoDB, JWT and Gorilla Mux.",
-        features: ["User authentication", "Tweet publishing", "User following", "Complete API in Golang"],
-      },
-      project3: {
-        title: "Microservices Research",
-        description:
-          "I conducted a research project in which I compared monolithic and microservices architectures, from design, implementation, load testing and monitoring.",
-        features: [
-          "Design and implementation of monolithic and microservices architecture",
-          "Load testing with JMeter",
-          "Monitoring with Prometheus and Grafana",
-          "Use of Docker for containerization",
-          "Performance and scalability comparisons",
-        ],
-      },
+
       project4: {
         title: "Event Manager-In development",
         description:
@@ -346,21 +293,7 @@ const TRANSLATIONS = {
           "Synchronization via RESTful API",
         ],
       },
-      project5: {
-        title: "Image Processing API",
-        description:
-          "REST API built in Golang that allows uploading images, storing them in MinIO, and applying transformations such as cropping, resizing, rotation, and filters (grayscale, sepia, inversion). Real-time processing with JWT authentication and database management using GORM.",
-        features: [
-          "Image upload and storage with MinIO",
-          "Transformations: crop, resize, rotate",
-          "Filters: grayscale, sepia, inversion",
-          "Real-time processing",
-          "JWT authentication",
-          "Database with GORM",
-          "Docker containers",
-          "RESTful endpoints",
-        ],
-      },
+
 
       project6: {
         title: "Expense Manager",

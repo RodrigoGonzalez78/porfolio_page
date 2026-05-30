@@ -94,20 +94,7 @@ class I18nManager {
           "assets/images/ecommerce/factura.png",
         ],
       },
-      project2: {
-        title: projects.project2.title,
-        description: projects.project2.description,
-        features: projects.project2.features,
-        technologies: ["Golang", "Android", "Jetpack Compose", "Retrofit", "Hilt", "Room", "MongoDB", "JWT"],
-        images: ["assets/images/tweet.jpg"],
-      },
-      project3: {
-        title: projects.project3.title,
-        description: projects.project3.description,
-        features: projects.project3.features,
-        technologies: ["Golang", "Docker", "JMeter", "PostgreSQL", "Grafana", "Prometheus"],
-        images: ["assets/images/micro.png"],
-      },
+
       project4: {
         title: projects.project4.title,
         description: projects.project4.description,
@@ -129,13 +116,7 @@ class I18nManager {
         ],
         images: ["assets/images/event1.png","assets/images/event2.png","assets/images/event3.png"],
       },
-      project5: {
-        title: projects.project5.title,
-        description: projects.project5.description,
-        features: projects.project5.features,
-        technologies: ["Golang", "Docker", "Minio", "SQLite", "JWT", "GORM", "Gorilla Mux"],
-        images: ["assets/images/img_proc.png"],
-      },
+
       project6: {
         title: projects.project6.title,
         description: projects.project6.description,
