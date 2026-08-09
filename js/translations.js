@@ -116,14 +116,17 @@ const TRANSLATIONS = {
       },
 
       project4: {
-        title: "Event Manager-En Desarrollo",
+        title: "Event Manager",
         description:
-          "Aplicación móvil nativa para Android con arquitectura limpia. Permite crear, editar y gestionar eventos, organizadores, tipos de tickets, validación con códigos QR, notificaciones y mapas. El backend está hecho en Golang, usando GORM, PostgreSQL, Swagger, MinIO y Docker.",
+          "Aplicación móvil nativa para Android con arquitectura limpia. Permite crear, editar y gestionar eventos, organizadores, tipos de tickets, validación con códigos QR, pagos con Mercado Pago, notificaciones push con Firebase, notificaciones por email con Resend y mapas. El backend está hecho en Golang, usando GORM, PostgreSQL, Swagger, SeaweedFS y Docker.",
         features: [
           "Gestión completa de eventos y tickets",
           "Generación y validación de QR",
           "Autenticación y autorización con JWT",
-          "Almacenamiento de imágenes con MinIO",
+          "Almacenamiento de imágenes con SeaweedFS",
+          "Pagos integrados con Mercado Pago",
+          "Notificaciones push con Firebase",
+          "Envío de emails con Resend",
           "Notificaciones y ubicación con Google Maps",
           "Sincronización mediante API RESTful",
         ],
@@ -279,14 +282,17 @@ const TRANSLATIONS = {
       },
 
       project4: {
-        title: "Event Manager-In development",
+        title: "Event Manager",
         description:
-          "A native Android mobile application with Clean Architecture. It allows creation and management of events, organizers, ticket types, QR validation, notifications, and maps. The backend is built in Golang using GORM, PostgreSQL, Swagger, MinIO and Docker.",
+          "A native Android mobile application with Clean Architecture. It allows creation and management of events, organizers, ticket types, QR validation, Mercado Pago payments, push notifications with Firebase, email notifications with Resend, and maps. The backend is built in Golang using GORM, PostgreSQL, Swagger, SeaweedFS and Docker.",
         features: [
           "Full event and ticket management",
           "QR code generation and validation",
           "Authentication and authorization with JWT",
-          "Image storage with MinIO",
+          "Image storage with SeaweedFS",
+          "Payments integrated with Mercado Pago",
+          "Push notifications with Firebase",
+          "Email sending with Resend",
           "Notifications and location via Google Maps",
           "Synchronization via RESTful API",
         ],

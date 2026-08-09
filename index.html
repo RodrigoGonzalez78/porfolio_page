@@ -468,23 +468,27 @@
           <!-- Project 4 -->
           <div class="project-card" data-id="project4">
             <div class="project-image">
-              <img src="assets/images/event1.png" alt="Event Management App">
+              <img src="assets/images/event_app/general.png" alt="Event Management App">
             </div>
             <div class="project-content">
-              <h3 class="project-title" data-i18n="projects.project4.title">Event Manager-En Desarrollo</h3>
+              <h3 class="project-title" data-i18n="projects.project4.title">Event Manager</h3>
               <p class="project-description" data-i18n="projects.project4.description">
                 Aplicación móvil nativa para Android desarrollada con Clean Architecture. Permite crear, editar y
                 gestionar eventos, agregar organizadores, tipos de tickets, generar tickets con códigos QR,
-                notificaciones, geolocalización y más.<br>
+                pagos integrados con Mercado Pago, notificaciones push con Firebase, notificaciones por email con
+                Resend, geolocalización y más.<br>
                 El backend fue desarrollado con Golang usando GORM, PostgreSQL, Swagger, procedimientos almacenados,
-                transacciones y MinIO para almacenamiento de imágenes. Todo está containerizado con Docker.
+                transacciones y SeaweedFS para almacenamiento de imágenes. Todo está containerizado con Docker.
               </p>
               <div class="project-techs">
                 <span class="tech-badge">Golang</span>
                 <span class="tech-badge">PostgreSQL</span>
                 <span class="tech-badge">Swagger</span>
                 <span class="tech-badge">Docker</span>
-                <span class="tech-badge">MinIO</span>
+                <span class="tech-badge">SeaweedFS</span>
+                <span class="tech-badge">Mercado Pago</span>
+                <span class="tech-badge">Resend</span>
+                <span class="tech-badge">Firebase</span>
                 <span class="tech-badge">Room</span>
                 <span class="tech-badge">Retrofit</span>
                 <span class="tech-badge">Hilt</span>
@@ -494,6 +498,10 @@
               </div>
               <a href="https://api.rodr1ck.pro/api/docs/" class="project-btn" target="_blank">
                 <i data-lucide="external-link"></i> <span data-i18n="projects.visitApi">Visitar API</span>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.rocketstudio99.event_horizon"
+                class="project-btn" target="_blank">
+                <i data-lucide="external-link"></i> <span data-i18n="projects.viewPlayStore">Ver en Play Store</span>
               </a>
             </div>
           </div>

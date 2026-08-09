@@ -104,7 +104,10 @@ class I18nManager {
           "PostgreSQL",
           "Swagger",
           "Docker",
-          "MinIO",
+          "SeaweedFS",
+          "Mercado Pago",
+          "Resend",
+          "Firebase",
           "Room",
           "Retrofit",
           "Hilt",
@@ -114,7 +117,13 @@ class I18nManager {
           "Google Maps",
           "Clean Architecture"
         ],
-        images: ["assets/images/event1.png","assets/images/event2.png","assets/images/event3.png"],
+        images: [
+          "assets/images/event_app/general.png",
+          "assets/images/event_app/evento.png",
+          "assets/images/event_app/ticket.png",
+          "assets/images/event_app/panel adminn.png",
+          "assets/images/event_app/arquitectura.png",
+        ],
       },
 
       project6: {
