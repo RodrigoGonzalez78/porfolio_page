@@ -14,17 +14,16 @@ const TRANSLATIONS = {
     },
     hero: {
       greeting: "Hola, soy Rodrigo",
-      subtitle: "Ingeniero de Software enfocado en el",
-      highlight: "Desarrollo Móvil y Backend",
-      location: "de Corrientes, Argentina 🇦🇷",
+      subtitle: "Ingeniero de Software / AI Engineer",
+      locationPrefix: "de",
+      location: "Corrientes, Argentina",
+      locationFlag: "🇦🇷",
       contact: "Contacto",
     },
     about: {
       title: "Mas sobre mí",
       paragraph1:
-        "Ingeniero de Software especializado en desarrollo móvil Android y backend, con sólida experiencia en la creación de aplicaciones nativas utilizando Kotlin, Jetpack Compose y arquitecturas modernas como Clean Architecture y MVVM. Competente en el desarrollo de APIs REST y WebSockets con Golang, así como en uso de bases de datos. Formación académica en Sistemas de Información complementada con certificaciones técnicas en las principales tecnologías del stack. Adaptable a distintos proyectos y entornos tecnológicos.",
-      paragraph2:
-        "Hoy en día, me especializo en el desarrollo de aplicaciones móviles, desde el diseño hasta su publicación, aplicando buenas prácticas como Clean Architecture e inyección de dependencias. Me esfuerzo por mantenerme en constante aprendizaje, mejorando mis habilidades y desarrollando mis propios backends, adquiriendo conocimientos en APIs REST, bases de datos, arquitectura y redes, usando para esto Golang.",
+        "Ingeniero de Software con conocimientos en desarrollo backend, mobile, integración e implementación de modelos de inteligencia artificial. Trabajo con modelos de lenguaje (LLM), procesamiento de lenguaje natural (NLP) y técnicas de RAG para integrar IA en soluciones reales como el procesamiento y anonimización de documentos. En backend utilizo Golang (APIs REST, microservicios y bases de datos) y en mobile desarrollo Android nativo con Kotlin y Jetpack Compose, aplicando arquitecturas modernas como Clean Architecture y MVVM.",
     },
     skills: {
       title: "Habilidades",
@@ -59,7 +58,7 @@ const TRANSLATIONS = {
         title: "Pasante en Desarrollo de Software",
         company: "CECONEA - Centro de Cómputos de la Universidad Nacional del Nordeste",
         period: "Enero 2026 - Actualidad",
-        description: "Desarrollo de soluciones de inteligencia artificial aplicadas al procesamiento de documentos. Implementación de modelos de reconocimiento óptico de caracteres (OCR), procesamiento de lenguaje natural (NLP) y técnicas de anonimización de datos sensibles utilizando Python y modelos de lenguaje (LLM).",
+        description: "Desarrollo de soluciones de inteligencia artificial aplicadas al procesamiento de documentos. Implementación de modelos de reconocimiento óptico de caracteres (OCR), procesamiento de lenguaje natural (NLP), técnicas de anonimización de datos sensibles y sistemas RAG con embeddings y bases vectoriales, utilizando Python y modelos de lenguaje (LLM).",
       },
     },
     certifications: {
@@ -181,17 +180,16 @@ const TRANSLATIONS = {
     },
     hero: {
       greeting: "Hi, I'm Rodrigo",
-      subtitle: "Software Engineer focused on",
-      highlight: "Mobile and Backend Development",
-      location: "from Corrientes, Argentina 🇦🇷",
+      subtitle: "Software Engineer / AI Engineer",
+      locationPrefix: "from",
+      location: "Corrientes, Argentina",
+      locationFlag: "🇦🇷",
       contact: "Contact",
     },
     about: {
       title: "More about me",
       paragraph1:
-        "Software Engineer specialized in Android mobile and backend development, with solid experience in building native applications using Kotlin, Jetpack Compose, and modern architectures such as Clean Architecture and MVVM. Skilled in developing REST APIs and WebSockets with Golang, as well as working with databases. Academic background in Information Systems complemented by technical certifications in key technologies of the stack. Adaptable to different projects and technological environments.",
-      paragraph2:
-        "Today, I specialize in mobile application development, from design to publication, applying good practices like Clean Architecture and dependency injection. I strive to keep learning constantly, improving my skills and developing my own backends, acquiring knowledge in REST APIs, databases, architecture and networks, using Golang for this.",
+        "Software Engineer with knowledge in backend and mobile development, and in the integration and implementation of artificial intelligence models. I work with large language models (LLM), natural language processing (NLP) and RAG techniques to integrate AI into real-world solutions such as document processing and anonymization. On the backend I use Golang (REST APIs, microservices and databases) and on mobile I develop native Android with Kotlin and Jetpack Compose, applying modern architectures such as Clean Architecture and MVVM.",
     },
     skills: {
       title: "Skills",
@@ -224,7 +222,7 @@ const TRANSLATIONS = {
         title: "Software Development Intern",
         company: "CECONEA - Computing Center of the Universidad Nacional del Nordeste",
         period: "January 2026 - Present",
-        description: "Development of artificial intelligence solutions applied to document processing. Implementation of optical character recognition (OCR) models, natural language processing (NLP), and data anonymization techniques using Python and large language models (LLM).",
+        description: "Development of artificial intelligence solutions applied to document processing. Implementation of optical character recognition (OCR) models, natural language processing (NLP), sensitive data anonymization techniques, and RAG systems with embeddings and vector databases, using Python and large language models (LLM).",
       },
     },
     certifications: {

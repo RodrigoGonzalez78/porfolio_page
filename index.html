@@ -59,9 +59,10 @@
       <div class="container">
         <h1 class="fade-in" data-i18n="hero.greeting">Hola, soy Rodrigo</h1>
         <p class="subtitle fade-in">
-          <span data-i18n="hero.subtitle">Ingeniero de Software enfocado en el</span>
-          <span class="highlight" data-i18n="hero.highlight">Desarrollo Móvil y Backend</span>
-          <span data-i18n="hero.location">de Corrientes, Argentina 🇦🇷</span>
+          <span data-i18n="hero.subtitle">Ingeniero de Software / AI Engineer</span>
+          <span data-i18n="hero.locationPrefix">de</span>
+          <span class="highlight" data-i18n="hero.location">Corrientes, Argentina</span>
+          <span data-i18n="hero.locationFlag">🇦🇷</span>
         </p>
         <div class="social-links fade-in">
           <button class="social-link contact-btn" onclick="openContactModal()">
@@ -88,12 +89,12 @@
       <div class="container">
         <h2 class="section-title"><i data-lucide="user"></i> <span data-i18n="about.title">Mas sobre mí</span></h2>
         <div class="about-content">
-          <p data-i18n="about.paragraph1">Ingeniero de Software especializado en desarrollo móvil Android y backend, con
-            sólida experiencia en la creación de aplicaciones nativas utilizando Kotlin, Jetpack Compose y arquitecturas
-            modernas como Clean Architecture y MVVM. Competente en el desarrollo de APIs REST y WebSockets con Golang,
-            así como en uso de bases de datos. Formación académica en Sistemas de Información complementada con
-            certificaciones técnicas en las principales tecnologías del stack. Adaptable a distintos proyectos y
-            entornos tecnológicos.
+          <p data-i18n="about.paragraph1">Ingeniero de Software con conocimientos en desarrollo backend, mobile,
+            integración e implementación de modelos de inteligencia artificial. Trabajo con modelos de lenguaje (LLM),
+            procesamiento de lenguaje natural (NLP) y técnicas de RAG para integrar IA en soluciones reales como el
+            procesamiento y anonimización de documentos. En backend utilizo Golang (APIs REST, microservicios y bases de
+            datos) y en mobile desarrollo Android nativo con Kotlin y Jetpack Compose, aplicando arquitecturas modernas
+            como Clean Architecture y MVVM.
           </p>
         </div>
       </div>
@@ -105,6 +106,78 @@
           <i data-lucide="code"></i> <span data-i18n="skills.title">Habilidades</span>
         </h2>
         <div class="skills-container">
+          <!-- Python -->
+          <div class="skill-badge">
+            <i class="fab fa-python fa-2x"></i>
+            <span>Python</span>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="skill-badge">
+            <i class="fas fa-chart-line fa-2x"></i>
+            <span>Machine Learning</span>
+          </div>
+
+          <!-- Deep Learning -->
+          <div class="skill-badge">
+            <i class="fas fa-layer-group fa-2x"></i>
+            <span>Deep Learning</span>
+          </div>
+
+          <!-- LLM -->
+          <div class="skill-badge">
+            <i class="fas fa-brain fa-2x"></i>
+            <span>LLM</span>
+          </div>
+
+          <!-- NLP -->
+          <div class="skill-badge">
+            <i class="fas fa-language fa-2x"></i>
+            <span>NLP</span>
+          </div>
+
+          <!-- RAG -->
+          <div class="skill-badge">
+            <i class="fas fa-project-diagram fa-2x"></i>
+            <span>RAG</span>
+          </div>
+
+          <!-- Embeddings -->
+          <div class="skill-badge">
+            <i class="fas fa-vector-square fa-2x"></i>
+            <span>Embeddings</span>
+          </div>
+
+          <!-- Vector DB -->
+          <div class="skill-badge">
+            <i class="fas fa-network-wired fa-2x"></i>
+            <span>Vector DB</span>
+          </div>
+
+          <!-- AI Coding Agents -->
+          <div class="skill-badge">
+            <i class="fas fa-robot fa-2x"></i>
+            <span>Coding Agents</span>
+          </div>
+
+          <!-- Golang -->
+          <div class="skill-badge">
+            <i class="fab fa-golang fa-3x"></i>
+            <span>Golang</span>
+          </div>
+
+          <!-- APIs REST -->
+          <div class="skill-badge">
+            <i class="fas fa-plug fa-2x"></i>
+            <span>APIs REST</span>
+          </div>
+
+          <!-- Kotlin -->
+          <div class="skill-badge">
+            <i class="devicon-kotlin-plain  fa-2x"></i>
+            <span>Kotlin</span>
+          </div>
+
           <!-- Android -->
           <div class="skill-badge">
             <i class="fab fa-android fa-2x"></i>
@@ -116,25 +189,6 @@
             <i class="devicon-kotlin-plain fa-2x"></i>
             <span>KMP</span>
           </div>
-
-          <!-- Kotlin -->
-          <div class="skill-badge">
-            <i class="devicon-kotlin-plain  fa-2x"></i>
-            <span>Kotlin</span>
-          </div>
-
-          <!-- Golang -->
-          <div class="skill-badge">
-            <i class="fab fa-golang fa-3x"></i>
-            <span>Golang</span>
-          </div>
-
-          <!-- Python -->
-          <div class="skill-badge">
-            <i class="fab fa-python fa-2x"></i>
-            <span>Python</span>
-          </div>
-
 
           <!-- SQL -->
           <div class="skill-badge">
@@ -158,30 +212,6 @@
           <div class="skill-badge">
             <i class="fab fa-github fa-2x"></i>
             <span>GitHub</span>
-          </div>
-
-          <!-- AI Coding Agents -->
-          <div class="skill-badge">
-            <i class="fas fa-robot fa-2x"></i>
-            <span>Coding Agents</span>
-          </div>
-
-          <!-- LLM -->
-          <div class="skill-badge">
-            <i class="fas fa-brain fa-2x"></i>
-            <span>LLM</span>
-          </div>
-
-          <!-- RAG -->
-          <div class="skill-badge">
-            <i class="fas fa-project-diagram fa-2x"></i>
-            <span>RAG</span>
-          </div>
-
-          <!-- Embeddings -->
-          <div class="skill-badge">
-            <i class="fas fa-vector-square fa-2x"></i>
-            <span>Embeddings</span>
           </div>
 
         </div>
@@ -263,14 +293,16 @@
               <p class="timeline-description" data-i18n="experience.job1.description">
                 Desarrollo de soluciones de inteligencia artificial aplicadas al procesamiento de documentos.
                 Implementación de modelos de reconocimiento óptico de caracteres (OCR), procesamiento de lenguaje
-                natural (NLP) y técnicas de anonimización de datos sensibles utilizando Python y modelos de lenguaje
-                (LLM).
+                natural (NLP), técnicas de anonimización de datos sensibles y sistemas RAG con embeddings y bases
+                vectoriales, utilizando Python y modelos de lenguaje (LLM).
               </p>
               <div class="project-techs" style="margin-top: var(--spacing-sm);">
                 <span class="tech-badge">Python</span>
                 <span class="tech-badge">LLM</span>
                 <span class="tech-badge">OCR</span>
                 <span class="tech-badge">NLP</span>
+                <span class="tech-badge">Embeddings</span>
+                <span class="tech-badge">Vector DB</span>
                 <span class="tech-badge">Anonimización</span>
               </div>
             </div>
